@@ -15,7 +15,7 @@
 
 
 section.anonymous_banner_container {
-  background: url('assets/banner.png') center;
+  background: url($anonymous_banner) center;
   background-size: cover;
   width: 100%;
   min-height: 100%;
