@@ -14,19 +14,120 @@
 // }
 
 
-section.anonymous_banner_container {
-  background: url($anonymous_banner) center;
-  background-size: cover;
-  width: 100%;
-  min-height: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+//section.anonymous_banner_container {
+//  background: url($anonymous_banner) center;
+//  background-size: cover;
+//  width: 100%;
+//  min-height: 100%;
+//  text-align: center;
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//}
+//
+//section.anonymous_banner_container a {
+//  transition: all 0.5s ease;
+//  background: #93d5b3;
+//  display: block;
+//  padding: 15px 40px;
+//  border-radius: 4px;
+//  color: #FFF;
+//  font-size: 14px;
+//  font-weight: 600;
+//  text-decoration: none;
+//}
+//
+//
+//section.anonymous_banner_container a:hover {
+//  transition: all 0.5s ease;
+//  background: #fff;
+//  color: #93d5b3;
+//}
+//
+//section.anonymous_banner_container h1 {
+//  margin: 0;
+//  padding: 0;
+//  font-size: 60px;
+//  color: #005289;
+//  letter-spacing: 0x;
+//  line-height: 82px;
+//}
+//
+//section.anonymous_banner_container h4 {
+//  margin: 15px 0;
+//  padding: 0;
+//  font-size: 24px;
+//  color: #454F5B;
+//  letter-spacing: 0;
+//  line-height: 30px;
+//}
+
+html, body {
+  font-family: Helvetica ;
+  padding: 0;
+  margin: 0 auto;
+  height: 100%;
 }
 
-section.anonymous_banner_container a {
+header.d-header {
+  background-color: #FFF;
+}
+
+.static-login {
+  background: url($anonymous_banner) center bottom;
+  background-size: cover;
+  text-align: center;
+}
+
+.static-login .container .ember-view {
+  display: flex;
+  justify-content: center;
+}
+
+.static-login .ember-application {
+  height: 100%;
+}
+
+.static-login .ember-application div.ember-view:first-child {
+  height: 100%;
+}
+
+.static-login #main-outlet {
+  height: calc(100% - 82px);
+}
+
+
+.static-login #main-outlet section.container {
+  height: 100%;
+}
+
+.static-login #main-outlet .body-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.static-login #main-outlet .body-page .login-required a {
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  color: #005289;
+  letter-spacing: 0x;
+  line-height: 82px;
+}
+
+.static-login #main-outlet .body-page .login-required p {
+  margin: 15px 0;
+  padding: 0;
+  font-size: 24px;
+  color: #454F5B;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.static-login #main-outlet .body-page button {
   transition: all 0.5s ease;
   background: #93d5b3;
   display: block;
@@ -38,27 +139,8 @@ section.anonymous_banner_container a {
   text-decoration: none;
 }
 
-
-section.anonymous_banner_container a:hover {
+.static-login #main-outlet .body-page button:hover {
   transition: all 0.5s ease;
   background: #fff;
   color: #93d5b3;
-}
-
-section.anonymous_banner_container h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 60px;
-  color: #005289;
-  letter-spacing: 0x;
-  line-height: 82px;
-}
-
-section.anonymous_banner_container h4 {
-  margin: 15px 0;
-  padding: 0;
-  font-size: 24px;
-  color: #454F5B;
-  letter-spacing: 0;
-  line-height: 30px;
 }
