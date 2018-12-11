@@ -1,19 +1,64 @@
-.hello-world-banner {
-    height: 300px;
-    width: 100%;
-    background: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1em;
+//.hello-world-banner {
+//    height: 300px;
+//    width: 100%;
+//    background: red;
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+//    margin-bottom: 1em;
 //     display: none;
-}
-
-// .hello-world {
-//     font-size: 8em;
-//     color: white;
-// }
-
+//}
+//
 // .anon .hello-world-banner {
 //     display: block;
 // }
+
+
+section.anonymous_banner_container {
+  background: url('assets/banner.png') center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.anonymous_banner_container a {
+  transition: all 0.5s ease;
+  background: #93d5b3;
+  display: block;
+  padding: 15px 40px;
+  border-radius: 4px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+section.anonymous_banner_container a:hover {
+  transition: all 0.5s ease;
+  background: #fff;
+  color: #93d5b3;
+}
+
+section.anonymous_banner_container h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  color: #005289;
+  letter-spacing: 0x;
+  line-height: 82px;
+}
+
+section.anonymous_banner_container h4 {
+  margin: 15px 0;
+  padding: 0;
+  font-size: 24px;
+  color: #454F5B;
+  letter-spacing: 0;
+  line-height: 30px;
+}
