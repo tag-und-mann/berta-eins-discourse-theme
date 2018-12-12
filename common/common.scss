@@ -75,6 +75,10 @@ header.d-header {
 }
 
 img.logo-big {
+  display: none;
+}
+
+img.logo-big::before {
   content: url($mini_logo);
 }
 
