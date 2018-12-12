@@ -74,6 +74,10 @@ header.d-header {
   background-color: #FFF;
 }
 
+.d-header .title img.site-logo {
+  background: url($mini_logo) no-repeat;
+}
+
 .static-login {
   background: url($anonymous_banner) center bottom;
   background-size: cover;

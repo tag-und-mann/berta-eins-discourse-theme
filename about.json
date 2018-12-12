@@ -3,6 +3,7 @@
   "about_url": "https://github.com/vadim-bondar-ew/berta-eins-discourse-theme",
   "license_url": "https://github.com/vadim-bondar-ew/berta-eins-discourse-theme/blob/master/LICENSE",
   "assets": {
-    "anonymous_banner": "assets/banner.png"
+    "anonymous_banner": "assets/banner.png",
+    "mini_logo": "assets/mini-logo.png"
   }
 }
