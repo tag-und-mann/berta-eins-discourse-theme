@@ -74,14 +74,6 @@ header.d-header {
   background-color: #FFF;
 }
 
-img.logo-big {
-  display: none;
-}
-
-img.logo-big::before {
-  content: url($mini_logo);
-}
-
 .static-login {
   background: url($anonymous_banner) center bottom;
   background-size: cover;
@@ -151,4 +143,8 @@ img.logo-big::before {
   transition: all 0.5s ease;
   background: #fff;
   color: #93d5b3;
+}
+
+.static-login .login-button > svg {
+  display: none;
 }
