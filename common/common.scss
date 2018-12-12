@@ -75,7 +75,7 @@ header.d-header {
 }
 
 img.logo-big {
-  background: url($mini_logo) no-repeat;
+  content: url($mini_logo);
 }
 
 .static-login {
