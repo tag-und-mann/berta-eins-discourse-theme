@@ -6,6 +6,7 @@
     "anonymous_banner": "assets/banner.png",
     "mini_logo": "assets/mini-logo.png",
     "forward_icon": "assets/forward-icon.svg",
+    "bg": "assets/bg.png",
     "CircularStd-Black": "assets/CircularStd-Black.otf",
     "CircularStd-Bold": "assets/CircularStd-Bold.otf",
     "CircularStd-BlackItalic": "assets/CircularStd-BlackItalic.otf",
