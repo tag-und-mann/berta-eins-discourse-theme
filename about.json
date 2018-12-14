@@ -5,7 +5,7 @@
   "assets": {
     "anonymous_banner": "assets/banner.png",
     "mini_logo": "assets/mini-logo.png",
-    "forward_icon": "assets/forward-icon.svg",
+    "forward": "assets/forward.svg",
     "bg": "assets/bg.png",
     "CircularStd-Black": "assets/CircularStd-Black.otf",
     "CircularStd-Bold": "assets/CircularStd-Bold.otf",
