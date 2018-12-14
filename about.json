@@ -4,6 +4,13 @@
   "license_url": "https://github.com/vadim-bondar-ew/berta-eins-discourse-theme/blob/master/LICENSE",
   "assets": {
     "anonymous_banner": "assets/banner.png",
-    "mini_logo": "assets/mini-logo.png"
+    "mini_logo": "assets/mini-logo.png",
+    "forward_icon": "assets/forward-icon.svg",
+    "CircularStd-Black": "assets/CircularStd-Black.otf",
+    "CircularStd-Bold": "assets/CircularStd-Bold.otf",
+    "CircularStd-BlackItalic": "assets/CircularStd-BlackItalic.otf",
+    "CircularStd-BoldItalic": "assets/CircularStd-BoldItalic.otf",
+    "CircularStd-Medium": "assets/CircularStd-Medium.otf",
+    "$CircularStd-MediumItalic": "assets/CircularStd-MediumItalic.otf"
   }
 }
