@@ -209,8 +209,8 @@ body.static-login {
   left: 0px;
   top: 50%;
   margin-top:-12px;
-  -webkit-mask: url($forward) 10px center/14px 14px no-repeat;
-  mask: url($forward) 10px center/14px 14px no-repeat;
+  -webkit-mask: url($forward) 10px center/18px 18px no-repeat;
+  mask: url($forward) 10px center/18px 18px no-repeat;
   background-color: #fff;
 }
 
@@ -218,10 +218,15 @@ body.static-login {
   display: none;
 }
 
+#topic-footer-buttons .create:hover {
+  background: #59CB92;
+}
+
 #topic-footer-buttons .flag-topic {
   background: #E9EDF2;
   color: #005289;
   padding-left: 30px;
+  position: relative;
 }
 
 #topic-footer-buttons .flag-topic > svg {
@@ -236,9 +241,13 @@ body.static-login {
   left: 0px;
   top: 50%;
   margin-top:-12px;
-  -webkit-mask: url($flag) 10px center/14px 14px no-repeat;
-  mask: url($flag) 10px center/14px 14px no-repeat;
+  -webkit-mask: url($flag) 10px center/18px 18px no-repeat;
+  mask: url($flag) 10px center/18px 18px no-repeat;
   background-color: #005289;
+}
+
+#topic-footer-buttons .flag-topic:hover {
+  background: #D5E3F1;
 }
 
 #topic-footer-buttons .share {
@@ -249,8 +258,4 @@ body.static-login {
 #topic-footer-buttons .bookmark {
   background: #E9EDF2;
   color: #005289;
-}
-
-#topic-footer-buttons .create:hover {
-  background: #59CB92;
 }
