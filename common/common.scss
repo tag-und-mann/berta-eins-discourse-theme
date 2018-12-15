@@ -224,6 +224,10 @@ body.static-login {
   padding-left: 30px;
 }
 
+#topic-footer-buttons .flag-topic > svg {
+  display: none;
+}
+
 #topic-footer-buttons .flag-topic:before {
   content: '';
   position: absolute;
