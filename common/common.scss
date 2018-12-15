@@ -195,17 +195,23 @@ body.static-login {
   border-top: 1px solid transparent;
 }
 
-// #topic-footer-buttons .btn-primary {
-//     background: #92D6B4;
-//     // background: #59CB92
-// }
-
-// #topic-footer-buttons .btn-primary.btn-hover {
-//     background: #59CB92;
-// }
-
 #topic-footer-buttons .create {
-  background: #92D6B4 url($forward) 10px center/14px 14px no-repeat;
+  background: #92D6B4;
+  padding-left: 30px;
+  position: relative;
+}
+
+#topic-footer-buttons .create:before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 50%;
+  margin-top:-12px;
+  -webkit-mask: url($forward) 10px center/14px 14px no-repeat;
+  mask: url($forward) 10px center/14px 14px no-repeat;
+  background-color: #fff;
 }
 
 #topic-footer-buttons .create > svg {
@@ -215,6 +221,20 @@ body.static-login {
 #topic-footer-buttons .flag-topic {
   background: #E9EDF2;
   color: #005289;
+  padding-left: 30px;
+}
+
+#topic-footer-buttons .flag-topic:before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 50%;
+  margin-top:-12px;
+  -webkit-mask: url($flag) 10px center/14px 14px no-repeat;
+  mask: url($flag) 10px center/14px 14px no-repeat;
+  background-color: #005289;
 }
 
 #topic-footer-buttons .share {
@@ -230,7 +250,3 @@ body.static-login {
 #topic-footer-buttons .create:hover {
   background: #59CB92;
 }
-
-// .btn-primary:active {
-//   background: #59CB92;
-// }
