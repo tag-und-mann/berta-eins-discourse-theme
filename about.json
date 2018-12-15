@@ -7,6 +7,8 @@
     "mini_logo": "assets/mini-logo.png",
     "forward": "assets/forward.svg",
     "flag": "assets/flag.svg",
+    "share": "assets/share.svg",
+    "stroke": "assets/stroke.svg",
     "bg": "assets/bg.png",
     "CircularStd-Black": "assets/CircularStd-Black.woff",
     "CircularStd-Bold": "assets/CircularStd-Bold.woff",

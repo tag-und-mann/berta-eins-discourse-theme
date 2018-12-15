@@ -204,7 +204,7 @@ body.static-login {
 #topic-footer-buttons .create:before {
   content: '';
   position: absolute;
-  width: 24px;
+  width: 30px;
   height: 24px;
   left: 0px;
   top: 50%;
@@ -253,9 +253,55 @@ body.static-login {
 #topic-footer-buttons .share {
   background: #E9EDF2;
   color: #005289;
+  padding-left: 30px;
+  position: relative;
+}
+
+#topic-footer-buttons .share > svg {
+  display: none;
+}
+
+#topic-footer-buttons .share:before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 50%;
+  margin-top:-12px;
+  -webkit-mask: url($share) 10px center/18px 18px no-repeat;
+  mask: url($share) 10px center/18px 18px no-repeat;
+  background-color: #005289;
+}
+
+#topic-footer-buttons .share:hover {
+  background: #D5E3F1;
 }
 
 #topic-footer-buttons .bookmark {
   background: #E9EDF2;
   color: #005289;
+  padding-left: 30px;
+  position: relative;
+}
+
+#topic-footer-buttons .bookmark > svg {
+  display: none;
+}
+
+#topic-footer-buttons .bookmark:before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 50%;
+  margin-top:-12px;
+  -webkit-mask: url($bookmark) 10px center/18px 18px no-repeat;
+  mask: url($bookmark) 10px center/18px 18px no-repeat;
+  background-color: #005289;
+}
+
+#topic-footer-buttons .bookmark:hover {
+  background: #D5E3F1;
 }
