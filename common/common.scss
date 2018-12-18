@@ -70,8 +70,70 @@ html {
   background-repeat: repeat-x;
 }
 
+.logo-big {
+  display:none;
+}
+
+header.d-header .anon .title a {
+  display: block;
+  background-image: url($mini_logo);
+  width: 200px;
+  height: 50px;
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+header.d-header .title a {
+  display: block;
+  background-image: url($mini_logo2);
+  width: 200px;
+  height: 50px;
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
 header.d-header {
   background-color: #FFF;
+  padding: 10px 0;
+}
+
+header.d-header .header-buttons > button {
+  background-color: #005289;
+  border-radius: 5px;
+  padding: 4px 15px;
+}
+
+header.d-header .header-buttons .login-button {
+  position: relative;
+  padding-left: 35px;
+}
+
+header.d-header .header-buttons .login-button:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 24px;
+  left: 0px;
+  top: 50%;
+  margin-top:-12px;
+  -webkit-mask: url($user) 10px center/18px 18px no-repeat;
+  mask: url($user) 10px center/18px 18px no-repeat;
+  background-color: #016AB1;
+}
+
+header.d-header .header-buttons .login-button:hover:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 24px;
+  left: 0px;
+  top: 50%;
+  margin-top:-12px;
+  -webkit-mask: url($user) 10px center/18px 18px no-repeat;
+  mask: url($user) 10px center/18px 18px no-repeat;
+  background-color: #1384d0;
 }
 
 body {
@@ -153,6 +215,10 @@ body.static-login {
 }
 
 .static-login .login-button > svg {
+  display: none;
+}
+
+.static-login #main-outlet .body-page .sign-up-button {
   display: none;
 }
 
@@ -304,4 +370,64 @@ body.static-login {
 
 #topic-footer-buttons .bookmark:hover {
   background: #D5E3F1;
+}
+
+// Poll styles
+
+.poll-container li {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  padding: 0em 0.7em 0em 0.5em;
+}
+
+div.poll li[data-poll-option-id] {
+  padding: 0em 0.7em 0em 0.5em;
+}
+
+div.poll .results .percentage {
+  padding-top: 6px;
+  font-size: 14px;
+  color: #637381;
+}
+
+div.poll .results .bar {
+  margin: 0 7px;
+  border-radius: 7px;
+  background: #92D6B4 !important;
+  height: 12px;
+}
+
+.d-icon-far-dot-circle {
+  padding-right: 7px;
+  font-size: 24px;
+  color: #005289;
+}
+
+.results li span:first-of-type {
+  color: #454F5B;
+  min-width: 20%;
+}
+
+.poll-container li span:first-of-type {
+  color: #454F5B;
+  min-width: 20%;
+}
+
+.d-icon-far-circle {
+  padding-right: 7px;
+  font-size: 24px;
+  color: #919EAB;
+}
+
+.d-icon-far-check-square,
+.d-icon-far-square {
+  padding-right: 7px;
+  font-size: 24px;
+  color: #005289;
+}
+
+div.poll,
+div.poll .poll-info {
+  border: none;
 }
