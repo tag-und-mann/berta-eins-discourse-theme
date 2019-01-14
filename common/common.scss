@@ -1,67 +1,7 @@
-@font-face {
-  font-family: 'Circular Std Black';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Circular Std Black'), url($CircularStd-Black) format('woff');
-}
-
-
-@font-face {
-  font-family: 'Circular Std Black Italic';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Circular Std Black Italic'), url($CircularStd-BlackItalic) format('woff');
-}
-
-
-@font-face {
-  font-family: 'Circular Std Medium';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Circular Std Medium'), url($CircularStd-Medium) format('woff');
-}
-
-
-@font-face {
-  font-family: 'Circular Std Medium Italic';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Circular Std Medium Italic'), url($CircularStd-MediumItalic) format('woff');
-}
-
-
-@font-face {
-  font-family: 'Circular Std Bold';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Circular Std Bold'), url($CircularStd-Bold) format('woff');
-}
-
-
-@font-face {
-  font-family: 'Circular Std Bold Italic';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Circular Std Bold Italic'), url($CircularStd-BoldItalic) format('woff');
-}
-
-@font-face {
-  font-family: 'Circular Std Book';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Circular Std Book'), url($CircularStd-Book) format('woff');
-}
-
-
-@font-face {
-  font-family: 'Circular Std Book Italic';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Circular Std Book Italic'), url($CircularStd-BookItalic) format('woff');
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 html {
-  font-family: Circular Std;
+  font-family: Roboto;
   padding: 0;
   margin: 0 auto;
 
@@ -141,12 +81,12 @@ header.d-header .header-buttons .login-button:hover:before {
 }
 
 body {
-  font-family: Circular Std;
+  font-family: Roboto;
   height: 100%;
 }
 
 body.static-login {
-  font-family: Circular Std;
+  font-family: Roboto;
   background: url($anonymous_banner) center bottom;
   background-size: cover;
   text-align: center;
