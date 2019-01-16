@@ -33,6 +33,10 @@ TOPIC NAVIAGATION
   text-transform: capitalize;
 }
 
+.discourse-no-touch .btn:hover {
+  background: #005289;
+}
+
 .nav-pills>li.active>a {
   background: #92d6b4;
   font-weight: 600;
