@@ -41,6 +41,18 @@ TOPIC NAVIAGATION
   text-transform: capitalize;
 }
 
+.nav-pills>li>a {
+  color: #525b66;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.nav-pills>li>a:hover {
+  color: #92d6b4;
+  background-color: rgba(#92d6b4, 0.6);
+}
+
 /*
 
 END TOPIC NAVIGATION
