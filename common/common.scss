@@ -27,12 +27,11 @@ TOPIC NAVIAGATION
 .list-controls .combo-box .combo-box-header {
   background: #e9edf2;
   border: none;
-  color: #4f86ac;
-  font-weight: 600;
-  font-size: 13px;
+  color: #005289;
+  font-weight: 600!important;
+  font-size: 13px!important;
   text-transform: capitalize;
 }
-
 
 .nav-pills>li.active>a {
   background: #92d6b4;
@@ -49,7 +48,7 @@ TOPIC NAVIAGATION
 }
 
 .nav-pills>li>a:hover {
-  color: #4a8166;
+  color: #214f38;
   background-color: rgba(#92d6b4, 0.6);
 }
 
