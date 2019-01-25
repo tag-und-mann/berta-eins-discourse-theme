@@ -26,7 +26,7 @@ SEARCH
 
 */
 
-/*.d-header .search-menu {
+.d-header .search-menu {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -37,7 +37,11 @@ SEARCH
 .search-menu .menu-panel.drop-down {
   position: initial;
   margin: 10% auto;
-}*/
+}
+
+.d-header-icons .icon {
+  z-index: -1;
+}
 
 .search-menu .menu-panel {
   background: transparent;
