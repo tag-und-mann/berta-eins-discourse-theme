@@ -61,24 +61,38 @@ SEARCH
   display: none;
 }
 
-.search-menu .topic-title {
-  font-size: 24px;
-  color: #92d6b4!important;
-}
-
-.search-menu .results {
-  
-}
-
-.search-link .blurb {
+.search-menu .search-link .blurb {
   font-size: 14px!important;
   color: #bad0de!important;
 }
 
-.results li span:first-of-type {
+.search-menu .results li span:first-of-type {
+  font-size: 24px;
+  color: #92d6b4!important;
   min-width: initial!important;
 }
 
+.search-menu .search-link .topic {
+  margin-bottom: 10px;
+}
+
+.search-menu .badge-wrapper.bullet span.badge-category {
+  font-size: 12px!important;
+  color: #ffffff!important;
+}
+
+.search-menu .badge-wrapper.bullet .d-icon {
+  color: #FFF!important;
+}
+
+.search-menu .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
+  background-color: #fff!important;
+}
+
+.search-menu .badge-wrapper {
+  display: block;
+  margin-bottom: 10px;
+}
 
 .search-menu input[type="text"] {
   margin: 0.5em 3px;
