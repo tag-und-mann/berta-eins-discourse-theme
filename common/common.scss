@@ -110,10 +110,21 @@ SEARCH
   background-color: #2473a7!important;
 }
 
+.search-menu .show-more {
+  margin-top: 20px;
+}
+
 .search-menu .show-more a {
+  transition: all 0.2s ease-in;
   background-color: #92d6b4;
   padding: 10px 25px;
   color: #FFF;
+  border-radius: 4px;
+}
+
+.search-menu .show-more a:hover {
+  transition: all 0.2s ease-in;
+  background-color: #54b685;
 }
 
 .search-menu input[type="text"] {
