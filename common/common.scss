@@ -100,8 +100,20 @@ SEARCH
   display: block;
 }
 
+.search-menu .menu-panel li a {
+  transition: all 0.3s ease-in;
+}
+
 .search-menu .menu-panel li a:hover {
+  transition: all 0.3s ease-in;
+  border-radius: 4px;
   background-color: #2473a7!important;
+}
+
+.search-menu .show-more a {
+  background-color: #92d6b4;
+  padding: 10px 25px;
+  color: #FFF;
 }
 
 .search-menu input[type="text"] {
