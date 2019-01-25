@@ -36,9 +36,37 @@ SEARCH
 
 .search-menu .menu-panel.drop-down {
   position: initial;
-  top: 100%;
-  right: -10px;
+  margin: 10% auto;
 }*/
+
+.search-menu .menu-panel {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+.search-menu .panel-body {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.search-menu .search-context {
+  display: none;
+}
+
+.search-menu input[type="text"] {
+  margin: 0.5em 3px;
+  box-sizing: border-box;
+  width: calc(100% - 6px);
+  height: 60px;
+  border: none;
+  border-radius: 4px;
+  background: #437ca6;
+  color: #fff;
+  font-size: 28px;
+}
 
 /*
 
