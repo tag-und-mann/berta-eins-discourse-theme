@@ -100,6 +100,10 @@ SEARCH
   display: block;
 }
 
+.search-menu .menu-panel li a:hover {
+  background-color: #2473a7!important;
+}
+
 .search-menu input[type="text"] {
   margin: 0.5em 3px;
   box-sizing: border-box;
