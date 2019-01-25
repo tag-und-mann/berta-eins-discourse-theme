@@ -37,7 +37,7 @@ SEARCH
 
 .search-menu .menu-panel.drop-down {
   position: initial;
-  margin: 10% auto;
+  margin: 8% auto;
 }
 
 .d-header-icons .icon {
@@ -64,6 +64,7 @@ SEARCH
 .search-menu .search-link .blurb {
   font-size: 14px!important;
   color: #bad0de!important;
+  margin-bottom: 1em!important;
 }
 
 .search-menu .results li span:first-of-type {
@@ -72,8 +73,8 @@ SEARCH
   min-width: initial!important;
 }
 
-.search-menu .search-link .topic {
-  margin-bottom: 10px;
+.search-menu .search-context+.results {
+  width: 70%;
 }
 
 .search-menu .blurb span {
