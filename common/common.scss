@@ -88,6 +88,7 @@ SEARCH
 
 .search-menu .topic-statuses .topic-status .d-icon,
 .search-menu .badge-wrapper.bullet .d-icon {
+  font-size: 12px;
   color: #FFF!important;
 }
 
@@ -97,7 +98,6 @@ SEARCH
 
 .search-menu .badge-wrapper {
   display: block;
-  margin-bottom: 10px;
 }
 
 .search-menu input[type="text"] {
