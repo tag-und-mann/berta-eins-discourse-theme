@@ -90,6 +90,48 @@ END TOPIC NAVIGATION
 
 */
 
+
+/*
+
+ BANNER BLOCK
+
+*/
+
+.banner-block {
+  background: #7fa8c2;
+  border-radius: 6px;
+  text-align: center;
+  padding: 55px 0;
+  width: 70%;
+  margin: 30px auto 50px auto;
+}
+
+.banner-block h1 {
+  color: #FFF;
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.banner-block a {
+  background: #92d6b4;
+  color: #FFF;
+  border-radius: 4px;
+  padding: 12px 25px;
+  font-size: 14px;
+}
+
+.banner-block a:hover {
+  color: #214f38;
+  background-color: rgba(146,214,180,0.6);
+}
+
+/*
+
+ END BANNER BLOCK
+
+*/
+
 header.d-header .anon .title a {
   display: block;
   background-image: url($mini_logo);
