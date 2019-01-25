@@ -114,6 +114,7 @@ END TOPIC NAVIGATION
 }
 
 .banner-block a {
+  transition: all 0.2s ease-in;
   background: #92d6b4;
   color: #FFF;
   border-radius: 4px;
@@ -122,6 +123,7 @@ END TOPIC NAVIGATION
 }
 
 .banner-block a:hover {
+  transition: all 0.2s ease-in;
   color: #214f38;
   background-color: rgba(146,214,180,0.6);
 }
