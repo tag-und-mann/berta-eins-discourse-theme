@@ -76,12 +76,17 @@ SEARCH
   margin-bottom: 10px;
 }
 
+.search-menu .blurb span {
+  font-size: 12px!important;
+}
+
 .search-menu .category-name,
 .search-menu .badge-wrapper.bullet span.badge-category {
   font-size: 12px!important;
   color: #ffffff!important;
 }
 
+.search-menu .topic-statuses .topic-status .d-icon,
 .search-menu .badge-wrapper.bullet .d-icon {
   color: #FFF!important;
 }
