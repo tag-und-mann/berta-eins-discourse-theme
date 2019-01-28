@@ -54,7 +54,6 @@ SEARCH
 .search-menu .panel-body {
   width: 70%;
   margin: 0 auto;
-  height: 100%!important;
 }
 
 .search-menu .search-context {
@@ -152,6 +151,30 @@ SEARCH
 }
 :-moz-placeholder { /* Firefox 18- */
   color: white;
+}
+
+.close-search-panel {
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.close-search-panel:before, .close-search-panel:after {
+  height: 8px;
+  margin-top: -4px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  content: '';
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    background: #fff;
 }
 
 /*
