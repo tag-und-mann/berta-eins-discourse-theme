@@ -161,14 +161,28 @@ SEARCH
   overflow: hidden;
 }
 
-.close-search-panel:before, .close-search-panel:after {
-  height: 8px;
-  margin-top: -4px;
+.close-search-panel:before {
+  height: 3px;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+  content: '';
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    background: #fff;
+}
+
+.close-search-panel:after {
+  height: 3px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   content: '';
     position: absolute;
     width: 100%;
