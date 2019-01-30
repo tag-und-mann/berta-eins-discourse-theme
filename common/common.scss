@@ -58,7 +58,7 @@ SEARCH
 
 .search-menu .panel-body {
   width: 70%;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 .search-menu .search-context {
@@ -230,6 +230,13 @@ SEARCH
   color: #ffffff!important;
   border-radius: 3px;
   padding: 10px 18px;
+}
+
+.custom-block .d-button-label {
+  display: contents!important;
+  font-size: 13px!important;
+  text-align: center;
+  margin-bottom: 0px!important;
 }
 
 
