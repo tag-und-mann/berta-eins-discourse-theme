@@ -33,11 +33,16 @@ SEARCH
   height: 100%;
   left: 0;
   top: 0;
+  z-index: 300;
+}
+
+#reply-control {
+  z-index: 1000!important;
 }
 
 .search-menu .menu-panel.drop-down {
   position: initial;
-  margin: 8% auto;
+  margin: 6% auto;
 }
 
 .d-header-icons .icon {
@@ -129,15 +134,18 @@ SEARCH
 }
 
 .search-menu input[type="text"] {
-  margin: 0.5em 3px;
+  margin: 0.5em 3px 0.5em 15px;
   box-sizing: border-box;
-  width: calc(100% - 6px);
+  width: 70%;
   height: 60px;
   border: none;
   border-radius: 4px;
   background: #437ca6;
   color: #fff;
   font-size: 28px;
+  position: fixed;
+  top: 35px;
+  left: 15%;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -192,6 +200,39 @@ SEARCH
     top: 50%;
     left: 0;
     background: #fff;
+}
+
+.custom-block {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  height: 15%;
+  width: 15%;
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  border: 1px solid #437ca6;
+  border-radius: 6px;
+  padding: 35px 45px;
+  justify-content: center;
+}
+
+.custom-block span {
+  color: #FFF;
+  display: block;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.custom-block .btn {
+  background: #92d6b4!important;
+  color: #ffffff!important;
+  border-radius: 3px;
+  padding: 10px 18px;
+}
+
+
 }
 
 /*
