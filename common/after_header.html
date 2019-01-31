@@ -15,3 +15,14 @@
         }
     });
 </script>
+
+<script type='text/x-handlebars' data-template-name='/connectors/header-after-home-logo/create-new-topic'>
+    {{#if currentUser}}
+    {{d-button  id="create-topic"
+    class="btn-default"
+    action="createTopic"
+    icon="plus"
+    label="topic.create"
+    disabled=cannotCreateTopicOnCategory}}
+    {{/if}}
+</script>
