@@ -299,7 +299,9 @@ END TOPIC NAVIGATION
 
 */
 
+
 .banner-block {
+  display: none;
   background: #7fa8c2;
   border-radius: 6px;
   text-align: center;
@@ -328,6 +330,11 @@ END TOPIC NAVIGATION
   transition: all 0.2s ease-in;
   color: #214f38;
   background-color: rgba(146,214,180,0.6);
+}
+
+.navigation-topics .banner-block,
+.navigation-categories .banner-block {
+  display: block!important;
 }
 
 /*
