@@ -6,7 +6,6 @@
     }
 
     function showSearch() {
-        console.log($('#search-button'));
-        $('#search-button')[0].trigger( "click" );
+        setTimeout(function(){ $('#search-button').click()}, 100);
     }
 </script>
