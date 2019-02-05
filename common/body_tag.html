@@ -6,7 +6,7 @@
     }
 
     function showSearch() {
-        const header = require('discourse/views/header').default;
+        const header = Discourse.__container__.lookup('view:header');
         header.showDropdownBySelector('.search-menu');
     }
 </script>
