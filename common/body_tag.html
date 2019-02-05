@@ -6,7 +6,6 @@
     }
 
     function showSearch() {
-        const header = Discourse.__container__.lookup('views:header');
-        header.showDropdownBySelector('.search-menu');
+        $('#search-button').trigger( "click" );
     }
 </script>
