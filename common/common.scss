@@ -28,9 +28,9 @@ Font awesome
   content: "\f005";
   color: #005289; }
 
-  .favorite-icon:hover {
-    color: #005289;
-  }
+.favorite-icon:hover {
+  color: #005289;
+}
   
 @font-face {
   font-family: 'Font Awesome 5 Free';
@@ -53,10 +53,6 @@ Font awesome
   margin-top: 1px;
   font-size: 16px;
   cursor: pointer;
-}
-
-.category-list tbody .category h3 i.fa:hover {
-  color: #005289;
 }
 
 
