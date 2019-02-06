@@ -9,7 +9,9 @@ Font awesome
 
 */
 
-.fa {
+.fa,
+.fas,
+.far {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -19,8 +21,17 @@ Font awesome
   line-height: 1; }
 
 .fa-star-o:before {
+  color: #919191!important;
   content: "\f005"; }
 
+.fa-star:before {
+  content: "\f005";
+  color: #005289!important; }
+
+  .favorite-icon:hover {
+    color: #005289!important;
+  }
+  
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
