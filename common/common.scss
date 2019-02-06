@@ -49,9 +49,14 @@ Font awesome
 }
 
 .category-list tbody .category h3 i.fa {
+  color: #005289!important;
+}
+
+.category-list tbody .category h3 i.fa:hover {
   margin-right: 5px;
   margin-top: 1px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 
