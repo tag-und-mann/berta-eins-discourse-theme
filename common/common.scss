@@ -21,15 +21,15 @@ Font awesome
   line-height: 1; }
 
 .fa-star-o:before {
-  color: #919191!important;
+  color: #919191;
   content: "\f005"; }
 
 .fa-star:before {
   content: "\f005";
-  color: #005289!important; }
+  color: #005289; }
 
   .favorite-icon:hover {
-    color: #005289!important;
+    color: #005289;
   }
   
 @font-face {
@@ -56,7 +56,7 @@ Font awesome
 }
 
 .category-list tbody .category h3 i.fa:hover {
-  color: #005289!important;
+  color: #005289;
 }
 
 
