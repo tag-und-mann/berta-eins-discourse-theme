@@ -895,11 +895,14 @@ div.poll .poll-info {
 
   #forgot-password-link {
     color: #FFF;
+    margin-top: 20px;
+    display: block;
   }
 
   #login-form td {
     padding: 0!important;
     display: block;
+    text-align: left;
   }
 
   .title h3,
@@ -911,6 +914,8 @@ div.poll .poll-info {
     background-color: transparent;
     box-shadow: none;
     padding: 0px;
+    position: relative;
+    min-width: 575px;
   }
 
   input {
@@ -925,6 +930,37 @@ div.poll .poll-info {
     -webkit-box-shadow: 0 0 0px 1000px rgba(255,255,255,0.7) inset!important;
   }
 
+  .d-modal.login-modal .modal-body {
+    display: block;
+    padding: 10px 0;
+  }
+
+  #new-account-link {
+    background: #e9edf2!important;
+    color: #005289;
+
+    &:hover {
+      color: #FFF;
+    }
+  }
+
+  .modal-footer {
+    padding: 0;
+    border: none;
+    text-align: left;
+  }
+
+  #login-form {
+    padding: 0;
+  }
+
+  .modal-header {
+    text-align: left;
+    display: block;
+    border: none;
+    padding: 0;
+  }
+
   .login-modal #login-buttons:not(.hidden) {
     display: block;
     flex-direction: column;
@@ -934,11 +970,15 @@ div.poll .poll-info {
     border-left: none;
     padding: 0; 
     text-align: right;
+    position: absolute;
+    left: 271px;
+    bottom: 5px;
   }
 
   .login-with-email-button {
-    width: auto;
+    width: auto!important;
     margin: 0 0 0 0!important;
+    height: 31px!important;
   }
 
   .modal-close {
