@@ -905,9 +905,15 @@ div.poll .poll-info {
     text-align: left;
   }
 
+  .create-account .disclaimer,
   .title h3,
   label {
     color: #FFF!important;
+  }
+
+  .btn-primary[disabled] {
+    background: #f4f4f4!important;
+    color: #000!important;
   }
 
   .modal-inner-container {
@@ -980,6 +986,19 @@ div.poll .poll-info {
     width: auto!important;
     margin: 0 0 0 0!important;
     height: 31px!important;
+  }
+
+  #login-link {
+    background: #e9edf2!important;
+
+    &:hover {
+      color: #FFF;
+    }
+  }
+
+  .d-modal.create-account .login-form:after,
+  .d-modal.create-account .login-form:before {
+    display: none;
   }
 
   .modal-close {
