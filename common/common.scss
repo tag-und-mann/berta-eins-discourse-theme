@@ -132,11 +132,17 @@ SEARCH
 }
 
 .search-menu .search-context+.results {
-  width: 70%;
+  width: 65%;
 }
 
 .search-menu .blurb span {
   font-size: 12px!important;
+}
+
+.search-menu .no-results {
+  padding: 5px;
+  font-weight: 600;
+  color: #FFF;
 }
 
 .search-menu .category-name,
@@ -145,6 +151,7 @@ SEARCH
   color: #ffffff!important;
 }
 
+#create-topic .btn .d-icon,
 .search-menu .topic-statuses .topic-status .d-icon,
 .search-menu .badge-wrapper.bullet .d-icon {
   font-size: 12px;
@@ -757,6 +764,38 @@ div.poll .poll-info {
   border: none;
 }
 
+
+#list-area .topic-list-item.green {
+  background: #92d6b4;
+}
+
+#list-area .topic-list-item.right-column.green .arrow {
+  border-right: 15px solid #92d6b4!important;
+}
+
+#list-area .topic-list-item.left-column.green .arrow {
+  border-left: 15px solid #92d6b4!important;
+}
+
+#list-area .topic-list-item.green a[data-user-card="system"] img {
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
+}
+
+#list-area .topic-list-item.green .favorite-icon {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+
+#list-area .topic-list-item.green .d-icon-thumbtack,
+#list-area .topic-list-item.green .d-icon-thumbtack.unpinned,
+#list-area .topic-list-item.green .category-name,
+#list-area .topic-list-item.green .topic-info-row .number,
+#list-area .topic-list-item.green .topic-info-row,
+#list-area .topic-list-item.green .link-top-line a.raw-topic-link {
+  color: #FFF!important;
+}
 
 /* //////////////////////////////////////////////////////////////////// */
 
