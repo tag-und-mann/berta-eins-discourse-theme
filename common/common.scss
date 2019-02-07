@@ -151,7 +151,6 @@ SEARCH
   color: #ffffff!important;
 }
 
-#create-topic .btn .d-icon,
 .search-menu .topic-statuses .topic-status .d-icon,
 .search-menu .badge-wrapper.bullet .d-icon {
   font-size: 12px;
@@ -291,6 +290,10 @@ SEARCH
   color: #ffffff!important;
   border-radius: 3px;
   padding: 10px 18px;
+}
+
+.custom-block svg {
+  color: #ffffff!important;
 }
 
 .custom-block .d-button-label {
