@@ -916,6 +916,11 @@ div.poll .poll-info {
     color: #000!important;
   }
 
+  .login-form .tip:not(:empty) {
+    max-width: fit-content;
+    margin-top: 5px;
+  }
+
   .modal-inner-container {
     background-color: transparent;
     box-shadow: none;
@@ -957,6 +962,7 @@ div.poll .poll-info {
     text-align: left;
   }
 
+  #login-form form,
   #login-form {
     padding: 0;
   }
