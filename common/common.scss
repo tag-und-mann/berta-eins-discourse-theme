@@ -804,7 +804,8 @@ div.poll .poll-info {
   color: #FFF!important;
 }
 
-.menu-panel li a:hover {
+.menu-panel li a:hover,
+.user-menu .notifications li:hover {
   background-color: #92d6b4;
   color: #fff;
 }
