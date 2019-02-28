@@ -225,6 +225,10 @@ SEARCH
   color: white;
 }
 
+::placeholder {
+  color:white
+}
+
 .close-search-panel {
   position: absolute;
   display: inline-block;
