@@ -19,6 +19,7 @@
     "CircularStd-Medium": "assets/CircularStd-Medium.woff",
     "CircularStd-MediumItalic": "assets/CircularStd-MediumItalic.woff",
     "CircularStd-Book": "assets/CircularStd-Book.woff",
-    "CircularStd-BookItalic": "assets/CircularStd-BookItalic.woff"
+    "CircularStd-BookItalic": "assets/CircularStd-BookItalic.woff",
+    "font-awesome": "assets/FontAwesome.ttf"
   }
 }
