@@ -507,6 +507,10 @@ body.static-login {
   line-height: 30px !important;
 }
 
+.login-required a:hover {
+  cursor: pointer;
+}
+
 .static-login .container .ember-view {
   display: flex;
   justify-content: center;
