@@ -511,6 +511,10 @@ body.static-login {
   cursor: pointer;
 }
 
+header.d-header .header-buttons .login-button {
+  display: none;
+}
+
 .static-login .container .ember-view {
   display: flex;
   justify-content: center;
