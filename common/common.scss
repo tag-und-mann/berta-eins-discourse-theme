@@ -500,14 +500,14 @@ body.static-login {
   background-color: #FFF;
 }
 
-.login-required a {
+.login-required p > a {
   display: inline;
   font-size: 24px !important;
   text-decoration: underline;
   line-height: 30px !important;
 }
 
-.login-required a:hover {
+.login-required p > a:hover {
   cursor: pointer;
 }
 
