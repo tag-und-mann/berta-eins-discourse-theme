@@ -500,6 +500,13 @@ body.static-login {
   background-color: #FFF;
 }
 
+.login-required a {
+  display: inline;
+  font-size: 24px;
+  text-decoration: underline;
+  line-height: 30px;
+}
+
 .static-login .container .ember-view {
   display: flex;
   justify-content: center;
