@@ -502,9 +502,9 @@ body.static-login {
 
 .login-required a {
   display: inline;
-  font-size: 24px;
+  font-size: 24px !important;
   text-decoration: underline;
-  line-height: 30px;
+  line-height: 30px !important;
 }
 
 .static-login .container .ember-view {
