@@ -519,9 +519,9 @@ body.static-login {
   display: none;
 }
 
-//.user-main .about.collapsed-info .controls ul a {
-//  display: none;
-//}
+.user-main .about.collapsed-info .controls ul li:last-child {
+  display: none;
+}
 
 header.d-header .header-buttons .login-button {
   display: none;
