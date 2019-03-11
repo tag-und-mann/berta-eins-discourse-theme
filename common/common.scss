@@ -83,6 +83,31 @@ html {
   display:none;
 }
 
+.modal-inner-container form {
+  text-align: left!important;
+}
+
+.modal-body {
+  padding: 15px 0!important;
+}
+
+.modal-body input {
+  width: 100%!important;
+  margin-top: 7px!important;
+}
+
+.forgot-password-modal {
+  color: #FFF!important;
+}
+
+.forgot-password-modal a {
+  color: #93d5b3!important;
+}
+
+.btn-primary {
+  background: #93d5b3!important;
+}
+
 /*
 
 SEARCH
