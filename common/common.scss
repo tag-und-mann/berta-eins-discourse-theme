@@ -976,7 +976,24 @@ div.poll .poll-info {
 }
 
 
+.modal-backdrop {
+  background-color: #176192!important;
+}
 
+.bootbox.modal {
+  margin: -53px 0 0 -305px!important;
+  background-color: transparent!important;
+  box-shadow: none!important;
+  text-align: center;
+}
+
+.modal-footer {
+  border: none!important;
+}
+
+.modal .modal-body {
+  color: #FFF;
+}
 
 /*///////////////////////////////////////////////////*/
 /*Modal login */
