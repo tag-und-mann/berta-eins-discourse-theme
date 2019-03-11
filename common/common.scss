@@ -110,6 +110,11 @@ html {
   border-radius: 5px;
 }
 
+.forgot-password-modal .btn-primary:hover {
+  color: #93d5b3!important;
+  background: #FFF;
+}
+
 /*
 
 SEARCH
@@ -1010,8 +1015,8 @@ div.poll .poll-info {
      background-color: transparent;
      box-shadow: none;
      padding: 0px;
-     position: relative;
      min-width: 575px;
+     animation: none!important;
    }
 
    input {
@@ -1092,8 +1097,8 @@ div.poll .poll-info {
 
    .modal-close {
      position: absolute;
-     right: 0px;
-     top: 0px;
+     right: 7px;
+     top: 7px;
      svg {
        color: #FFF!important;
        font-size: 30px;
