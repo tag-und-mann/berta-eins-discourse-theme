@@ -104,8 +104,10 @@ html {
   color: #93d5b3!important;
 }
 
-.btn-primary {
+.forgot-password-modal .btn-primary {
   background: #93d5b3!important;
+  color: #FFF;
+  border-radius: 5px;
 }
 
 /*
@@ -1091,7 +1093,7 @@ div.poll .poll-info {
    .modal-close {
      position: absolute;
      right: 0px;
-     top: 7px;
+     top: 0px;
      svg {
        color: #FFF!important;
        font-size: 30px;
