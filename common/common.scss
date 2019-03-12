@@ -92,7 +92,7 @@ html {
 }
 
 .poll-checkbox .modal-body input {
-  width: auto;
+  width: auto!important;
 }
 
 .modal-body input {
@@ -130,14 +130,17 @@ html {
 }
 
 .poll-select label {
+  color: #FFF!important;
   min-width: 85px!important;
 }
 
 .poll-ui-builder-form .poll-select {
   line-height: 2em;
   color: #000;
+  margin-bottom: 20px;
 }
 
+.modal-footer,
 .modal-header {
   padding: 0;
 }
