@@ -101,6 +101,10 @@ html {
   margin-top: 7px;
 }
 
+.edit-category-modal .fixed-modal:not(.history-modal) .modal-body {
+  overflow: auto!important;
+}
+
 .forgot-password-modal {
   color: #FFF!important;
 }
@@ -1037,9 +1041,14 @@ div.poll .poll-info {
   background-color: #176192!important;
 }
 
+.modal-tab a {
+  color: #92d6b4!important;
+}
+
 .modal-tab input {
   margin-top: 0;
   width: auto!important;
+  color: #000000;
 }
 
 .bootbox.modal {
