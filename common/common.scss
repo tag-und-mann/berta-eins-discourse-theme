@@ -101,8 +101,13 @@ html {
   margin-top: 7px;
 }
 
+.combo-box-header {
+  color: #000; 
+}
+
 .edit-category-modal .fixed-modal:not(.history-modal) .modal-body {
   overflow: auto!important;
+  margin-bottom: 10px;
 }
 
 .forgot-password-modal {
