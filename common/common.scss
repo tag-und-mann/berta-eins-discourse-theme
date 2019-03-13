@@ -1038,10 +1038,14 @@ div.poll .poll-info {
 }
 
 .bootbox.modal {
-  margin: -53px 0 0 -305px!important;
+  top: 40%!important;
   background-color: transparent!important;
   box-shadow: none!important;
   text-align: center;
+}
+
+.bootbox.modal .modal-footer a {
+  background-color: #92d6b4!important;
 }
 
 .modal-footer {
