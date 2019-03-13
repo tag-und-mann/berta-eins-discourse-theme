@@ -91,6 +91,7 @@ html {
   padding: 15px 0!important;
 }
 
+.radio input,
 .poll-checkbox input {
   width: auto!important;
 }
@@ -112,6 +113,14 @@ html {
   background: #93d5b3!important;
   color: #FFF!important;
   border-radius: 5px;
+}
+
+.btn-danger[disabled], .btn-danger.disabled {
+  color: #FFF!important;
+}
+
+.flag-action-type a {
+  color: #93d5b3!important;
 }
 
 .modal-footer .btn-primary:hover {
