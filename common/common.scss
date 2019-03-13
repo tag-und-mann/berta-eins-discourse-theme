@@ -98,7 +98,7 @@ html {
 
 .modal-body input {
   width: 100%;
-  margin-top: 7px!important;
+  margin-top: 7px;
 }
 
 .forgot-password-modal {
@@ -1035,6 +1035,11 @@ div.poll .poll-info {
 
 .modal-backdrop {
   background-color: #176192!important;
+}
+
+.modal-tab input {
+  margin-top: 0;
+  width: auto!important;
 }
 
 .bootbox.modal {
