@@ -75,6 +75,10 @@ html {
   background-repeat: repeat-x;
 }
 
+#main-outlet {
+  padding-top: 90px!important;
+}
+
 .logo-big {
   display:none;
 }
@@ -177,6 +181,16 @@ html {
 
 .modal-header .modal-close .close {
   color: #fff!important;
+}
+
+.categories-list {
+  .category-breadcrumb, .active {
+    display: none;
+  }
+}
+
+.nav-stacked li.indent {
+  padding-left: 0px!important;
 }
 
 /*
@@ -958,6 +972,18 @@ div.poll .poll-info {
   color: #fff;
 }
 
+.pref-second-factor {
+  display: none;
+}
+
+#uploaded-avatar {
+  width: auto!important;
+}
+
+.modal-inner-container a {
+  color: #93d5b3 !important;
+}
+
 /* //////////////////////////////////////////////////////////////////// */
 
 .mobile-view {
@@ -965,6 +991,12 @@ div.poll .poll-info {
     padding: 30px 0 !important;
     width: 90% !important;
     margin: 30px auto !important;
+  }
+
+  .search-advanced-title,
+  .mobile-toggle-link,
+  #topic-progress-wrapper {
+    display: none;
   }
 
   .modal-inner-container {
