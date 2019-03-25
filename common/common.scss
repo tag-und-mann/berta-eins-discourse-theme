@@ -1018,6 +1018,10 @@ div.poll .poll-info {
     margin: 30px auto !important;
   }
 
+  .topic-list td {
+    max-width: 240px!important;
+  }
+
   .search-advanced-title,
   .mobile-toggle-link,
   #topic-progress-wrapper {
