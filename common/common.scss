@@ -984,6 +984,31 @@ div.poll .poll-info {
   color: #93d5b3 !important;
 }
 
+.avatar-choice .btn {
+  min-height: auto!important;
+}
+
+.category-list-item {
+  .main-link {
+    position: initial;
+  }
+
+  .favorite-icon {
+    position: absolute;
+    right: 10px;
+    top: 23px;
+  }
+
+  .category-title-link {
+    display: flex;
+    align-items: center;
+
+    .category-text-title {
+      margin-right: 10px;
+    }
+  }
+}
+
 /* //////////////////////////////////////////////////////////////////// */
 
 .mobile-view {
