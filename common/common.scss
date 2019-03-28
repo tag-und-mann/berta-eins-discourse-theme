@@ -673,7 +673,7 @@ header.d-header .header-buttons .login-button {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  width: 700px!important;
+  
 }
 
 .static-login #main-outlet .body-page .login-required a {
@@ -692,6 +692,8 @@ header.d-header .header-buttons .login-button {
   color: #454F5B;
   letter-spacing: 0;
   line-height: 30px;
+  display: block;
+  width: 700px!important;
 }
 
 .static-login #main-outlet .body-page button {
