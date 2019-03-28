@@ -1280,4 +1280,17 @@ div.poll .poll-info {
     column-gap: normal !important;
     column-rule: none !important;
   }
+
+  #list-area .right-column .arrow,
+    #list-area .left-column .arrow {
+        display: none!important;
+
+    }
+
+    #list-area .topic-list-item.right-column,
+    #list-area .topic-list-item.left-column {
+        width: 100%!important;
+        margin-left: 0!important;
+        margin-top: 0!important;
+    }
 }
