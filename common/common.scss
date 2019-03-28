@@ -673,6 +673,7 @@ header.d-header .header-buttons .login-button {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  width: auto!important;
 }
 
 .static-login #main-outlet .body-page .login-required a {
@@ -1123,7 +1124,7 @@ div.poll .poll-info {
 
   .poll-container li span:first-of-type {
     color: #454F5B;
-    min-width: 25%;
+    min-width: 33%;
     max-width: 25%;
   }
 }
