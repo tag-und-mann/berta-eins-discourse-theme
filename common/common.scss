@@ -395,6 +395,7 @@ SEARCH
   display: flex;
   height: 15%;
   width: 15%;
+  min-width: 145px;
   position: absolute;
   top: 20%;
   right: 15%;
@@ -1009,6 +1010,10 @@ div.poll .poll-info {
   }
 }
 
+.search-menu .results .main-results {
+  margin-top: 15px;
+}
+
 /* //////////////////////////////////////////////////////////////////// */
 
 .mobile-view {
@@ -1105,6 +1110,7 @@ div.poll .poll-info {
     padding: 0!important;
   }
 }
+
 
 
 .modal-backdrop {
@@ -1293,4 +1299,10 @@ div.poll .poll-info {
         margin-left: 0!important;
         margin-top: 0!important;
     }
+}
+
+@media screen and (max-width: 950px) {
+  .search-menu .search-context+.results {
+    width: 52%!important;
+  }
 }
