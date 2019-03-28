@@ -1271,3 +1271,13 @@ div.poll .poll-info {
      }
    }
  }
+
+ /*/////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 870px) {
+  #list-area .mansory {
+    column-count: auto !important;
+    column-gap: normal !important;
+    column-rule: none !important;
+  }
+}
