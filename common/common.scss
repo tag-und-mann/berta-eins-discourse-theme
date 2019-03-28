@@ -891,6 +891,8 @@ div.poll .results .percentage {
   padding-top: 6px;
   font-size: 14px;
   color: #637381;
+  width: 35px;
+  max-width: 35px;
 }
 
 div.poll .results .bar {
@@ -913,7 +915,8 @@ div.poll .results .bar {
 
 .poll-container li span:first-of-type {
   color: #454F5B;
-  min-width: 20%;
+  min-width: 25%;
+  max-width: 25%;
 }
 
 .d-icon-far-circle {
@@ -1075,7 +1078,7 @@ div.poll .poll-info {
   }
 
   .poll-container li {
-    flex-wrap: wrap!important;
+    flex-wrap: nowrap!important;
     height: auto!important;
     padding: 0!important;
   }
@@ -1108,6 +1111,20 @@ div.poll .poll-info {
   div.poll .poll-container,
   div.poll .poll-info {
     padding: 0!important;
+  }
+
+  div.poll .results .percentage {
+    padding-top: 6px;
+    font-size: 14px;
+    color: #637381;
+    width: 35px;
+    max-width: 35px;
+  }
+
+  .poll-container li span:first-of-type {
+    color: #454F5B;
+    min-width: 25%;
+    max-width: 25%;
   }
 }
 
