@@ -580,9 +580,7 @@ header.d-header .header-buttons .login-button:before {
   left: 0px;
   top: 50%;
   margin-top:-12px;
-  -webkit-mask: url($user) 10px center/18px 18px no-repeat;
-  mask: url($user) 10px center/18px 18px no-repeat;
-  background-color: #016AB1;
+  background: url($user) 10px center/18px 18px no-repeat;
 }
 
 header.d-header .header-buttons .login-button:hover:before {
@@ -593,9 +591,7 @@ header.d-header .header-buttons .login-button:hover:before {
   left: 0px;
   top: 50%;
   margin-top:-12px;
-  -webkit-mask: url($user) 10px center/18px 18px no-repeat;
-  mask: url($user) 10px center/18px 18px no-repeat;
-  background-color: #1384d0;
+  background: url($user) 10px center/18px 18px no-repeat;
 }
 
 body {
@@ -776,9 +772,7 @@ header.d-header .header-buttons .login-button {
   left: 0px;
   top: 50%;
   margin-top:-12px;
-  -webkit-mask: url($forward) 10px center/18px 18px no-repeat;
-  mask: url($forward) 10px center/18px 18px no-repeat;
-  background-color: #fff;
+  background: url($forward) 10px center/18px 18px no-repeat;
 }
 
 #topic-footer-buttons .create > svg {
@@ -808,9 +802,7 @@ header.d-header .header-buttons .login-button {
   left: 0px;
   top: 50%;
   margin-top:-12px;
-  -webkit-mask: url($flag) 10px center/18px 18px no-repeat;
-  mask: url($flag) 10px center/18px 18px no-repeat;
-  background-color: #005289;
+  background: url($flag) 10px center/18px 18px no-repeat;
 }
 
 #topic-footer-buttons .flag-topic:hover {
@@ -836,9 +828,7 @@ header.d-header .header-buttons .login-button {
   left: 0px;
   top: 50%;
   margin-top:-12px;
-  -webkit-mask: url($share) 10px center/18px 18px no-repeat;
-  mask: url($share) 10px center/18px 18px no-repeat;
-  background-color: #005289;
+  background: url($share) 10px center/18px 18px no-repeat;
 }
 
 #topic-footer-buttons .share:hover {
