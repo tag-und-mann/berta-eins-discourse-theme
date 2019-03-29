@@ -864,9 +864,13 @@ header.d-header .header-buttons .login-button {
   left: 0px;
   top: 50%;
   margin-top:-12px;
-  -webkit-mask: url($stroke) 10px center/18px 18px no-repeat;
-  mask: url($stroke) 10px center/18px 18px no-repeat;
-  background-color: #005289;
+  background: url($stroke) 10px center/18px 18px no-repeat;
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+  // -webkit-mask: url($stroke) 10px center/18px 18px no-repeat;
+  // mask: url($stroke) 10px center/18px 18px no-repeat;
+  // background-color: #005289;
 }
 
 #topic-footer-buttons .bookmark:hover {
