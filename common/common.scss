@@ -690,12 +690,7 @@ header.d-header .header-buttons .login-button {
   line-height: 30px;
   display: block;
   max-width: 700px;
-}
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-	.static-login #main-outlet .body-page .login-required p {
-    width: 700px!important;
-  }
+  width: 700px!important;
 }
 
 .static-login #main-outlet .body-page button {
@@ -1024,6 +1019,10 @@ div.poll .poll-info {
 /* //////////////////////////////////////////////////////////////////// */
 
 .mobile-view {
+  .static-login #main-outlet .body-page .login-required p {
+    max-width: 370px;
+    width: 370px!important;
+  }
   #list-area table.topic-list .category-name {
     font-size: 18px!important;
   }
