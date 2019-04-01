@@ -451,7 +451,7 @@ TOPIC NAVIAGATION
   border: none;
   color: #005289;
   font-weight: 600!important;
-  font-size: 13px!important;
+  line-height: inherit!important;
   text-transform: capitalize;
 }
 
@@ -1143,7 +1143,6 @@ div.poll .poll-info {
 }
 
 .bootbox.modal {
-  top: 40%!important;
   background-color: transparent!important;
   box-shadow: none!important;
   text-align: center;
