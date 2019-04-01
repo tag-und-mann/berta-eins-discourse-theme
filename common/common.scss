@@ -689,7 +689,13 @@ header.d-header .header-buttons .login-button {
   letter-spacing: 0;
   line-height: 30px;
   display: block;
-  width: 700px!important;
+  max-width: 700px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.static-login #main-outlet .body-page .login-required p {
+    width: 700px!important;
+  }
 }
 
 .static-login #main-outlet .body-page button {
@@ -1179,6 +1185,10 @@ div.poll .poll-info {
      padding: 0!important;
      display: block;
      text-align: left;
+   }
+
+   #login-form input {
+     width: 100%!important;
    }
 
    .create-account .disclaimer,
