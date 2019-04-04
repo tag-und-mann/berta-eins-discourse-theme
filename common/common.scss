@@ -882,7 +882,7 @@ header.d-header .header-buttons .login-button {
 }
 
 div.poll li[data-poll-option-id] {
-  padding: 0em 0.7em 0em 0.5em;
+  padding: 0em 0.7em 0.25em 0.5em;
 }
 
 div.poll .results .percentage {
@@ -891,6 +891,12 @@ div.poll .results .percentage {
   color: #637381;
   width: 35px;
   max-width: 35px;
+}
+
+div.poll .d-icon-circle {
+  border: 2px solid gray;
+    border-radius: 50%;
+    padding: 3px;
 }
 
 div.poll .results .bar {
