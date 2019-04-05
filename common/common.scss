@@ -908,7 +908,7 @@ div.poll .results .bar {
 
 div.poll[data-poll-type="number"] li[data-poll-option-id] {
   min-width: 50px;
-  display: flex;
+  display: block;
   width: auto!important;
   margin-bottom: 0.25em!important;
 
@@ -958,7 +958,7 @@ div.poll .poll-info {
 }
 
 div[data-poll-type="number"] ul {
-  display: flex;
+  display: flex!important;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
