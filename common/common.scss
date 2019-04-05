@@ -907,7 +907,6 @@ div.poll .results .bar {
 }
 
 div.poll[data-poll-type="number"] li[data-poll-option-id] {
-  display: block!important;
   min-width: 50px;
   display: flex;
   width: auto!important;
@@ -919,7 +918,7 @@ div.poll[data-poll-type="number"] li[data-poll-option-id] {
 
   span:first-of-type {
     min-width: auto!important;
-    max-width: auto!important;
+    max-width: 100%!important;
   }
 }
 
