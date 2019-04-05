@@ -961,6 +961,10 @@ div[data-poll-type="number"] ul {
   display: flex!important;
   justify-content: flex-start;
   flex-wrap: wrap;
+
+  li {
+    display: flex!important;
+  }
 }
 
 
