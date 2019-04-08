@@ -936,6 +936,10 @@ div.poll[data-poll-type="number"] li[data-poll-option-id] {
   color: #005289;
 }
 
+.edit-category-modal .modal-body {
+  height: 410px!important;
+}
+
 .results li span:first-of-type {
   color: #454F5B;
   min-width: 20%;
