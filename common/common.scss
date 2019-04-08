@@ -922,6 +922,14 @@ div.poll[data-poll-type="number"] li[data-poll-option-id] {
   }
 }
 
+.nav-pills>li.active>a {
+  color: #FFF!important;
+}
+
+.modal ..nav-pills {
+  background: transparent!important;
+}
+
 .d-icon-far-dot-circle {
   padding-right: 7px;
   font-size: 24px;
