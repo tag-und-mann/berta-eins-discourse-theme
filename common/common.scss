@@ -942,6 +942,13 @@ a[title='Tastenkombinationen'] {
   text-transform: none!important;
 }
 
+.poll-container blockquote {
+  padding: 0px!important;
+  border: none!important;
+  color: #222!important;
+  background-color: transparent!important;
+}
+
 .topic-body .topic-map {
   display: none!important;
 }
