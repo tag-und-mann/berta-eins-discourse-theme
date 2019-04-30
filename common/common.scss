@@ -930,6 +930,10 @@ div.poll[data-poll-type="number"] li[data-poll-option-id] {
   background: transparent!important;
 }
 
+.nav-pills.user-nav li:first-of-type {
+  display: none;
+}
+
 .d-icon-far-dot-circle {
   padding-right: 7px;
   font-size: 24px;
