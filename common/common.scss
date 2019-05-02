@@ -1088,10 +1088,16 @@ div[data-poll-type="number"] ul {
   margin-top: 15px;
 }
 
-.link-top-line a,
-.topic-excerpt a,
+.link-top-line a {
+  font-size: 22px;
+}
+
+.topic-excerpt a {
+  font-size: 20px;
+}
+
 .category-name {
-  font-size: initial;
+  font-size: 18px;
 }
 
 /* //////////////////////////////////////////////////////////////////// */
