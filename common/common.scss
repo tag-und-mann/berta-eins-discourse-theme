@@ -74,9 +74,15 @@ Font awesome
 }
 
 .faq-priority {
-  opacity: 0;
+  font-size: 0;
   position: relative;
   z-index: 4;
+}
+
+.faq-priority:hover {
+  &:after {
+    color: #FFF!important;
+  }
 }
 
 .faq-priority:after  {
@@ -85,6 +91,7 @@ Font awesome
   left: 0;
   top: 0;
   z-index: 3;
+  width: 100%;
   padding: 0.25em 0.5em;
   font-size: 15px!important;
   line-height: 1.4!important;
