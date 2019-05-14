@@ -73,32 +73,32 @@ td.green {
   background: #92d6b4!important;
 }
 
-.faq-priority {
-  font-size: 1px;
-  position: relative;
-  z-index: 4;
-  height: 28px;
-  background: transparent!important;
-}
+// .faq-priority {
+//   font-size: 1px;
+//   position: relative;
+//   z-index: 4;
+//   height: 28px;
+//   background: transparent!important;
+// }
 
-.faq-priority:hover {
-  &:after {
-    color: #FFF!important;
-  }
-}
+// .faq-priority:hover {
+//   &:after {
+//     color: #FFF!important;
+//   }
+// }
 
-.faq-priority:after  {
-  content: 'Netiqutte';
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 3;
-  width: 100%;
-  padding: 0.25em 0.5em;
-  font-size: 15px!important;
-  line-height: 1.4!important;
-  color: #08c!important;
-}
+// .faq-priority:after  {
+//   content: 'Netiqutte';
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   z-index: 3;
+//   width: 100%;
+//   padding: 0.25em 0.5em;
+//   font-size: 15px!important;
+//   line-height: 1.4!important;
+//   color: #08c!important;
+// }
 
 .d-editor-button-bar .quote {
   display: none!important;
