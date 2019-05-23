@@ -417,34 +417,25 @@ SEARCH
 }
 
 .close-search-panel:before {
-  height: 3px;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  content: '';
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 0;
-  background: #fff;
+  content: 'X';
+  font-size: 25px;
+  color: #FFF;
 }
 
-.close-search-panel:after {
-  height: 3px;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  content: '';
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 0;
-    background: #fff;
-}
+// .close-search-panel:after {
+//   height: 3px;
+//   -webkit-transform: rotate(-45deg);
+//   -moz-transform: rotate(-45deg);
+//   -ms-transform: rotate(-45deg);
+//   -o-transform: rotate(-45deg);
+//   transform: rotate(-45deg);
+//   content: '';
+//     position: absolute;
+//     width: 100%;
+//     top: 50%;
+//     left: 0;
+//     background: #fff;
+// }
 
 .custom-block {
   align-items: center;
