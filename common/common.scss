@@ -53,7 +53,6 @@ Font awesome
 
 .category-list tbody .category h3 {
   display: flex;
-
 }
 
 .category-list tbody .category h3 i.fa {
@@ -385,6 +384,7 @@ SEARCH
   position: fixed;
   top: 35px;
   left: 15%;
+  z-index: 10000;
 }
 
 #search-term::-webkit-input-placeholder { /* Chrome/Opera/Safari */
