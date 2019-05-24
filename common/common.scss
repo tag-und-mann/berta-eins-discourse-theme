@@ -268,8 +268,12 @@ SEARCH
   z-index: 1000!important;
 }
 
+.search-menu .results li span:first-of-type {
+  min-width: auto!important;
+}
+
 .search-menu .menu-panel.drop-down {
-  top: -115px!important;
+  top: -100px!important;
   position: absolute;
   margin: 6% auto;
 }
@@ -441,8 +445,6 @@ SEARCH
 
 .custom-block {
   align-items: center;
-  flex-direction: column;
-  display: flex;
   height: 100px;
   width: 15%;
   min-width: 145px;
@@ -468,6 +470,10 @@ SEARCH
   background: #92d6b4!important;
   color: #ffffff!important;
   border-radius: 3px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 .custom-block svg {
