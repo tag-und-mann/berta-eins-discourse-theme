@@ -1277,6 +1277,14 @@ div[data-poll-type="number"] ul {
     min-width: 33%;
     max-width: 25%;
   }
+  
+  #list-area .topic-info-row {
+    display: inline-block !important;
+  }
+  
+  #list-area .topic-list-item.left-column {
+      width: calc(100vw - 20px) !important;
+  }
 }
 
 
