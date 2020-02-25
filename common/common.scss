@@ -1209,11 +1209,6 @@ div[data-poll-type="number"] ul {
     width: auto!important;
   }
 
-  #list-area .right-column .arrow,
-  #list-area .left-column .arrow {
-    display: none!important;
-  }
-
   #list-area .topic-list-item.right-column,
   #list-area .topic-list-item.left-column {
     width: calc(100% - 7px)!important;
@@ -1463,12 +1458,6 @@ div[data-poll-type="number"] ul {
     column-count: auto !important;
     column-gap: normal !important;
     column-rule: none !important;
-  }
-
-  #list-area .right-column .arrow,
-  #list-area .left-column .arrow {
-    display: none!important;
-
   }
 
   #list-area .topic-list-item.right-column,
