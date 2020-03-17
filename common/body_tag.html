@@ -19,8 +19,8 @@
 
   Discourse.NavItem.reopenClass({
     buildList : function(category, args) {
+      var list = this._super(category, args);
       if(!category) {
-        var list = this._super(category, args);
         list.push(Discourse.ExternalNavItem.create({href: 'https://vsao-zh.ch/lohnrechner/?return', name: 'lohnrechner'}));
       }
       return list;
