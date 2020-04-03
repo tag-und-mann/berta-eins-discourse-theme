@@ -1191,12 +1191,6 @@ div[data-poll-type="number"] ul {
     margin-bottom: 20px !important;
   }
 
-  #list-area .mansory {
-    column-count: auto!important;
-    column-gap: normal!important;
-    column-rule: none!important;
-  }
-
   .topic-list .topic-excerpt {
     width: auto!important;
   }
@@ -1464,12 +1458,6 @@ div[data-poll-type="number"] ul {
 /*/////////////////////////////////////////////////////////////////////////////*/
 
 @media screen and (max-width: 870px) {
-  #list-area .mansory {
-    column-count: auto !important;
-    column-gap: normal !important;
-    column-rule: none !important;
-  }
-
   #list-area .topic-list-item.right-column,
   #list-area .topic-list-item.left-column {
     width: 100%!important;
