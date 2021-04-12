@@ -150,11 +150,6 @@ html {
   padding: 15px 0!important;
 }
 
-.d-header-icons .d-icon {
-  color: #c2c2c2!important;
-  //color: var(--header_primary-low-mid);
-}
-
 .radio input,
 .poll-checkbox input {
   width: auto!important;
@@ -701,7 +696,7 @@ body.static-login {
 }
 
 header.d-header .header-buttons .login-button {
-  display: block;
+  display: none;
 }
 
 .static-login .container .ember-view {
@@ -714,7 +709,7 @@ header.d-header .header-buttons .login-button {
 }
 
 .static-login .ember-application div.ember-view:first-child {
-  height: auto;
+  height: 100%;
 }
 
 .static-login #main-outlet {
@@ -1367,14 +1362,6 @@ div[data-poll-type="number"] ul {
   .d-modal.login-modal .modal-body {
     display: block;
     padding: 10px 0;
-  }
-
-  .login-modal:not(.hidden) .login-left-side {
-    background: transparent !important;
-  }
-
-  .d-modal.login-modal .login-welcome-header {
-    background: transparent !important;
   }
 
   #new-account-link {
