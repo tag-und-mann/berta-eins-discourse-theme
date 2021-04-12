@@ -696,7 +696,7 @@ body.static-login {
 }
 
 header.d-header .header-buttons .login-button {
-  display: none;
+  display: block;
 }
 
 .static-login .container .ember-view {
@@ -709,7 +709,7 @@ header.d-header .header-buttons .login-button {
 }
 
 .static-login .ember-application div.ember-view:first-child {
-  height: 100%;
+  height: auto;
 }
 
 .static-login #main-outlet {
@@ -1362,6 +1362,14 @@ div[data-poll-type="number"] ul {
   .d-modal.login-modal .modal-body {
     display: block;
     padding: 10px 0;
+  }
+
+  .login-modal:not(.hidden) .login-left-side {
+    background: transparent !important;
+  }
+
+  .d-modal.login-modal .login-welcome-header {
+    background: transparent !important;
   }
 
   #new-account-link {
