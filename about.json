@@ -21,7 +21,5 @@
     "CircularStd-Book": "assets/CircularStd-Book.woff",
     "CircularStd-BookItalic": "assets/CircularStd-BookItalic.woff",
     "font-awesome": "assets/font-awesome.ttf"
-  },
-  "color_schemes": {
   }
 }
