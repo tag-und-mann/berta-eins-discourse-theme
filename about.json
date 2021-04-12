@@ -21,5 +21,14 @@
     "CircularStd-Book": "assets/CircularStd-Book.woff",
     "CircularStd-BookItalic": "assets/CircularStd-BookItalic.woff",
     "font-awesome": "assets/font-awesome.ttf"
-  }
+  },
+  "color_schemes": {
+  },
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
