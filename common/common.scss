@@ -703,18 +703,6 @@ header.d-header .header-buttons .login-button {
   display: block;
 }
 
-.static-login .container .ember-view {
-  display: flex;
-  justify-content: center;
-}
-
-.static-login .ember-application {
-  height: 100%;
-}
-
-.static-login .ember-application div.ember-view:first-child {
-  height: auto;
-}
 
 .static-login #main-outlet {
   height: calc(100% - 82px);
