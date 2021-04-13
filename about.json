@@ -1,11 +1,13 @@
 {
-  "name": "Berta Eins Discourse Theme",
-  "about_url": "https://github.com/tag-und-mann/berta-eins-discourse-theme",
+  "name": "Berta Search Eins Discourse Theme",
+  "component": false,
   "license_url": "https://github.com/tag-und-mann/berta-eins-discourse-theme/blob/master/LICENSE",
+  "about_url": "https://github.com/tag-und-mann/berta-eins-discourse-theme",
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
   "assets": {
-    "anonymous_banner": "assets/banner.png",
-    "mini_logo": "assets/mini-logo.png",
-    "mini_logo2": "assets/mini-logo2.png",
     "forward": "assets/forward.svg",
     "flag": "assets/flag.svg",
     "share": "assets/share.svg",
@@ -20,6 +22,14 @@
     "CircularStd-MediumItalic": "assets/CircularStd-MediumItalic.woff",
     "CircularStd-Book": "assets/CircularStd-Book.woff",
     "CircularStd-BookItalic": "assets/CircularStd-BookItalic.woff",
-    "font-awesome": "assets/font-awesome.ttf"
-  }
+    "font-awesome": "assets/font-awesome.ttf",
+    "mini_logo": "assets/mini_logo.png",
+    "mini_logo2": "assets/mini_logo2.png",
+    "anonymous_banner": "assets/anonymous_banner.png"
+  },
+  "color_schemes": {
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
