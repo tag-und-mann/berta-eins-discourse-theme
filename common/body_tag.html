@@ -5,9 +5,9 @@
       composerController.open({ action: Composer.CREATE_TOPIC, draftKey: Composer.DRAFT });
     }
 
-    /*function showSearch() {
+    function showSearch() {
       setTimeout(function(){ $('#search-button').click()}, 100);
-    }*/
+    }
 
     Discourse.ExternalNavItem = Discourse.NavItem.extend({
       href : function() {
@@ -27,37 +27,33 @@
       }
     });
 
-
-    let on = (function(){
+    $(function(){
+      let on = (function(){
         if ("addEventListener" in window) {
-            return function(target, type, listener){
-                target.addEventListener(type, listener, false);
-            };
+          return function(target, type, listener){
+            target.addEventListener(type, listener, false);
+          };
         }
         else {
-            return function(object, sEvent, fpNotify){
-                object.attachEvent("on" + sEvent, function(){
-                    fpNotify(window.event);
-                });
-            };
+          return function(object, sEvent, fpNotify){
+            object.attachEvent("on" + sEvent, function(){
+              fpNotify(window.event);
+            });
+          };
         }
-    }());
+      }());
 
 
-    on(document.getElementById("create-topic"), "click", function(){
+      on(document.getElementById("create-topic"), "click", function(){
         createTopic();
-    });
+      });
 
-    on(document.getElementById("search-block"), "click", function(){
+      on(document.getElementById("search-block"), "click", function(){
         showSearch();
-    });
-
-
-    /*$(function(){
-
+      });
       setTimeout(function(){
         $("li[title='Lohnrechner'] > a").attr("target" , "_blank");
       }, 500);
-    });*/
+    });
 
 </script>
