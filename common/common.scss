@@ -1294,6 +1294,16 @@ div[data-poll-type="number"] ul {
 /*Modal login */
 /*///////////////////////////////////////////////////*/
 
+login-modal:not(.hidden) #login-form .input-group, .login-modal:not(.hidden) .login-form .input-group, .create-account #login-form .input-group, .create-account .login-form .input-group {
+  width: 100%!important;
+  margin-bottom: 2em!important;
+}
+
+.login-modal:not(.hidden) #login-form .input-group label.alt-placeholder, .login-modal:not(.hidden) .login-form .input-group label.alt-placeholder, .create-account #login-form .input-group label.alt-placeholder, .create-account .login-form .input-group label.alt-placeholder {
+  left: 0!important;
+  top: -20px!important;
+}
+
 .static-login {
   .modal-backdrop {
     background-color: #176192!important;
