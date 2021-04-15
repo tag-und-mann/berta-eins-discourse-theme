@@ -56,11 +56,14 @@
       }, 500);
     });
 
+    $(document).ready(function(){
+        $('.attachment').attr('target', '_blank');
+    });
 
-    window.onload = function(){
-        var anchors = document.getElementByClassName('attachment').getElementsByTagName('a');
+    /*window.onload = function(){
+        var anchors = document.getElementByClassName('attachment');
         for (var i=0; i<anchors.length; i++){
             anchors[i].setAttribute('target', '_blank');
         }
-    }
+    }*/
 </script>
