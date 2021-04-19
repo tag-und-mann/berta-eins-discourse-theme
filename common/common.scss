@@ -15,6 +15,7 @@
 $primary-color: #ff6f00;
 $secondary-color: #3599ff;
 $dark-blue: #013367;
+$gray: #454F5B;
 
 /*
 
@@ -188,13 +189,15 @@ html {
 }
 
 .forgot-password-modal a {
-  color: #93d5b3 !important;
+  color:$primary-color !important;
 }
 
 .modal-footer .btn-primary {
   background: $primary-color !important;
-  color: #FFF !important;
-  border-radius: 5px;
+  padding: 6px 20px;
+  border: 1px solid $primary-color;
+  border-radius: 20px;
+  color: $gray;
 }
 
 .btn-danger[disabled], .btn-danger.disabled {
@@ -202,12 +205,16 @@ html {
 }
 
 .flag-action-type a {
-  color: #93d5b3 !important;
+  color: $primary-color !important;
 }
 
 .modal-footer .btn-primary:hover {
-  color: #93d5b3 !important;
-  background: #FFF !important;
+  color: $primary-color!important;
+  background: #FFFFFF!important;
+}
+
+.discourse-no-touch .btn-primary:hover .d-icon, .discourse-no-touch .btn-primary.btn-hover .d-icon {
+  color: $primary-color!important;
 }
 
 .modal-inner-container {
@@ -759,11 +766,12 @@ header.d-header .header-buttons .login-button {
 
 .static-login #main-outlet .body-page button {
   transition: all 0.5s ease;
-  background: #93d5b3;
+  background: #FFFFFF;
   display: block;
-  padding: 15px 40px;
-  border-radius: 4px;
-  color: #FFF;
+  padding: 6px 20px;
+  border: 1px solid $primary-color;
+  border-radius: 20px;
+  color: $gray;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
@@ -772,7 +780,7 @@ header.d-header .header-buttons .login-button {
 .static-login #main-outlet .body-page button:hover {
   transition: all 0.5s ease;
   background: #fff;
-  color: #93d5b3;
+  color:$primary-color;
 }
 
 .static-login .login-button > svg {
@@ -1112,7 +1120,7 @@ div[data-poll-type="number"] ul {
 }
 
 .modal-inner-container a {
-  color: #93d5b3 !important;
+  color:$primary-color !important;
 }
 
 .avatar-choice .btn {
