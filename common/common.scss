@@ -189,7 +189,7 @@ html {
 }
 
 .forgot-password-modal a {
-  color:$primary-color !important;
+  color: $primary-color !important;
 }
 
 .modal-footer .btn-primary {
@@ -209,12 +209,12 @@ html {
 }
 
 .modal-footer .btn-primary:hover {
-  color: $primary-color!important;
-  background: #FFFFFF!important;
+  color: $primary-color !important;
+  background: #FFFFFF !important;
 }
 
 .discourse-no-touch .btn-primary:hover .d-icon, .discourse-no-touch .btn-primary.btn-hover .d-icon {
-  color: $primary-color!important;
+  color: $primary-color !important;
 }
 
 .modal-inner-container {
@@ -616,7 +616,7 @@ END TOPIC NAVIGATION
 
 header.d-header .anon .title a {
   display: block;
-  background-image: url($doc_doc_logo);
+  background-image: url($mini_logo2);
   width: 150px;
   height: 50px;
   background-size: contain;
@@ -626,7 +626,7 @@ header.d-header .anon .title a {
 
 header.d-header .title a {
   display: block;
-  background-image: url($doc_doc_logo);
+  background-image: url($mini_logo2);
   width: 200px;
   height: 50px;
   background-size: contain;
@@ -640,7 +640,7 @@ header.d-header {
 }
 
 header.d-header .header-buttons > button {
-  background-color: $primary-color!important;
+  background-color: $primary-color !important;
   color: #fff !important;
   border-radius: 20px;
   padding: 4px 15px;
@@ -735,11 +735,11 @@ header.d-header .header-buttons .login-button {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto!important;
+  margin: 0 auto !important;
 }
 
 .login-modal:not(.hidden) #login-form .input-group, .login-modal:not(.hidden) .login-form .input-group, .create-account #login-form .input-group, .create-account .login-form .input-group {
-  width: 100%!important;
+  width: 100% !important;
   margin-bottom: 1.25em;
 }
 
@@ -780,7 +780,7 @@ header.d-header .header-buttons .login-button {
 .static-login #main-outlet .body-page button:hover {
   transition: all 0.5s ease;
   background: #fff;
-  color:$primary-color;
+  color: $primary-color;
 }
 
 .static-login .login-button > svg {
@@ -1120,7 +1120,7 @@ div[data-poll-type="number"] ul {
 }
 
 .modal-inner-container a {
-  color:$primary-color !important;
+  color: $primary-color !important;
 }
 
 .avatar-choice .btn {
@@ -1327,178 +1327,178 @@ login-modal:not(.hidden) #login-form .input-group, .login-modal:not(.hidden) .lo
 }
 
 .login-modal:not(.hidden) #login-form .input-group label.alt-placeholder, .login-modal:not(.hidden) .login-form .input-group label.alt-placeholder, .create-account #login-form .input-group label.alt-placeholder, .create-account .login-form .input-group label.alt-placeholder {
-left: 0 !important;
-top: -20px !important;
+  left: 0 !important;
+  top: -20px !important;
 }
 
 .login-modal:not(.hidden) #login-form .input-group input:focus + label.alt-placeholder, .login-modal:not(.hidden) #login-form .input-group input.value-entered + label.alt-placeholder, .login-modal:not(.hidden) .login-form .input-group input:focus + label.alt-placeholder, .login-modal:not(.hidden) .login-form .input-group input.value-entered + label.alt-placeholder, .create-account #login-form .input-group input:focus + label.alt-placeholder, .create-account #login-form .input-group input.value-entered + label.alt-placeholder, .create-account .login-form .input-group input:focus + label.alt-placeholder, .create-account .login-form .input-group input.value-entered + label.alt-placeholder {
-left: 0 !important;
-top: -20px !important;
-background-color: transparent;
-padding: 0 0.25em 0 0.25em;
-font-size: .8706em;
-color: #FFFFFF;
+  left: 0 !important;
+  top: -20px !important;
+  background-color: transparent !important;
+  padding: 0 0.25em 0 0.25em;
+  font-size: .8706em;
+  color: #FFFFFF !important;
 }
 
 .static-login {
-.modal-backdrop {
-  background-color: #176192 !important;
-}
-
-#forgot-password-link {
-  color: #FFF;
-  margin-top: 20px;
-  display: block;
-}
-
-#login-form td {
-  padding: 0 !important;
-  display: block;
-  text-align: left;
-}
-
-#login-form input {
-  width: 100% !important;
-}
-
-.create-account .disclaimer,
-.title h3,
-label {
-  color: #FFF !important;
-}
-
-.btn-primary[disabled] {
-  background: #f4f4f4 !important;
-  color: #000 !important;
-}
-
-.login-form .tip:not(:empty) {
-  max-width: fit-content;
-  margin-top: 5px;
-}
-
-.modal-inner-container {
-  background-color: transparent;
-  box-shadow: none;
-  padding: 0px;
-  min-width: 575px;
-  animation: none !important;
-}
-
-input {
-  height: 45px;
-  background: rgba(255, 255, 255, 0.7);
-  border: 0px solid #FFF;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 10px;
-}
-
-input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.7) inset !important;
-}
-
-.d-modal.login-modal .modal-body {
-  display: block;
-  padding: 10px 0;
-}
-
-.login-modal:not(.hidden) .login-left-side {
-  background: transparent !important;
-}
-
-.d-modal.login-modal .login-welcome-header {
-  background: transparent !important;
-}
-
-#new-account-link {
-  background: #e9edf2;
-  color: #005289;
-
-  &:hover {
-    background: #005289;
-    color: #FFF;
+  .modal-backdrop {
+    background-color: #176192 !important;
   }
-}
 
-.modal-footer {
-  padding: 0;
-  border: none;
-  text-align: left;
-}
-
-.login-form form,
-#login-form {
-  padding: 0 !important;
-}
-
-.modal-header {
-  text-align: left;
-  display: block;
-  border: none;
-  padding: 0;
-}
-
-.login-modal #login-buttons:not(.hidden) {
-  display: block;
-  flex-direction: column;
-  flex-basis: 40%;
-  align-items: center;
-  min-height: auto;
-  border-left: none;
-  padding: 0;
-  text-align: right;
-  position: absolute;
-  left: 271px;
-  bottom: 5px;
-}
-
-.login-with-email-button {
-  width: auto !important;
-  margin: 0 0 0 0 !important;
-  height: 31px !important;
-}
-
-#login-link {
-  background: #e9edf2 !important;
-
-  &:hover {
+  #forgot-password-link {
     color: #FFF;
+    margin-top: 20px;
+    display: block;
   }
-}
 
-.d-modal.create-account .login-form:after,
-.d-modal.create-account .login-form:before {
-  display: none;
-}
+  #login-form td {
+    padding: 0 !important;
+    display: block;
+    text-align: left;
+  }
 
-.modal-close {
-  position: absolute;
-  right: 7px;
-  top: 7px;
+  #login-form input {
+    width: 100% !important;
+  }
 
-  svg {
+  .create-account .disclaimer,
+  .title h3,
+  label {
     color: #FFF !important;
-    font-size: 30px;
   }
-}
+
+  .btn-primary[disabled] {
+    background: #f4f4f4 !important;
+    color: #000 !important;
+  }
+
+  .login-form .tip:not(:empty) {
+    max-width: fit-content;
+    margin-top: 5px;
+  }
+
+  .modal-inner-container {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+    min-width: 575px;
+    animation: none !important;
+  }
+
+  input {
+    height: 45px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 0px solid #FFF;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 10px;
+  }
+
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.7) inset !important;
+  }
+
+  .d-modal.login-modal .modal-body {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .login-modal:not(.hidden) .login-left-side {
+    background: transparent !important;
+  }
+
+  .d-modal.login-modal .login-welcome-header {
+    background: transparent !important;
+  }
+
+  #new-account-link {
+    background: #e9edf2;
+    color: #005289;
+
+    &:hover {
+      background: #005289;
+      color: #FFF;
+    }
+  }
+
+  .modal-footer {
+    padding: 0;
+    border: none;
+    text-align: left;
+  }
+
+  .login-form form,
+  #login-form {
+    padding: 0 !important;
+  }
+
+  .modal-header {
+    text-align: left;
+    display: block;
+    border: none;
+    padding: 0;
+  }
+
+  .login-modal #login-buttons:not(.hidden) {
+    display: block;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+    min-height: auto;
+    border-left: none;
+    padding: 0;
+    text-align: right;
+    position: absolute;
+    left: 271px;
+    bottom: 5px;
+  }
+
+  .login-with-email-button {
+    width: auto !important;
+    margin: 0 0 0 0 !important;
+    height: 31px !important;
+  }
+
+  #login-link {
+    background: #e9edf2 !important;
+
+    &:hover {
+      color: #FFF;
+    }
+  }
+
+  .d-modal.create-account .login-form:after,
+  .d-modal.create-account .login-form:before {
+    display: none;
+  }
+
+  .modal-close {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+
+    svg {
+      color: #FFF !important;
+      font-size: 30px;
+    }
+  }
 }
 
 .create-topic-header {
-margin-right: 10px;
-background: #92d6b4 !important;
-color: #fff !important;
-padding-top: 11px;
-padding-bottom: 11px;
-border-radius: 3px;
+  margin-right: 10px;
+  background: #92d6b4 !important;
+  color: #fff !important;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius: 3px;
 }
 
 .create-topic-header svg {
-color: white !important;
+  color: white !important;
 }
 
 .banner-button:hover {
-background: #7fa8c2 !important;
-color: #FFF !important;
+  background: #7fa8c2 !important;
+  color: #FFF !important;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////*/
