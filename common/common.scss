@@ -616,7 +616,7 @@ END TOPIC NAVIGATION
 
 header.d-header .anon .title a {
   display: block;
-  background-image: url($mini_logo);
+  background-image: url($doc_doc_logo);
   width: 150px;
   height: 50px;
   background-size: contain;
@@ -626,7 +626,7 @@ header.d-header .anon .title a {
 
 header.d-header .title a {
   display: block;
-  background-image: url($mini_logo2);
+  background-image: url($doc_doc_logo);
   width: 200px;
   height: 50px;
   background-size: contain;
@@ -640,9 +640,9 @@ header.d-header {
 }
 
 header.d-header .header-buttons > button {
-  background-color: #005289 !important;
+  background-color: $primary-color!important;
   color: #fff !important;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 4px 15px;
 }
 
@@ -1334,10 +1334,10 @@ top: -20px !important;
 .login-modal:not(.hidden) #login-form .input-group input:focus + label.alt-placeholder, .login-modal:not(.hidden) #login-form .input-group input.value-entered + label.alt-placeholder, .login-modal:not(.hidden) .login-form .input-group input:focus + label.alt-placeholder, .login-modal:not(.hidden) .login-form .input-group input.value-entered + label.alt-placeholder, .create-account #login-form .input-group input:focus + label.alt-placeholder, .create-account #login-form .input-group input.value-entered + label.alt-placeholder, .create-account .login-form .input-group input:focus + label.alt-placeholder, .create-account .login-form .input-group input.value-entered + label.alt-placeholder {
 left: 0 !important;
 top: -20px !important;
-background-color: var(--secondary);
+background-color: transparent;
 padding: 0 0.25em 0 0.25em;
 font-size: .8706em;
-color: var(--primary-medium);
+color: #FFFFFF;
 }
 
 .static-login {
