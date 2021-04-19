@@ -99,6 +99,20 @@ section.about.admins {
   display: none !important;
 }
 
+@media (max-width: 850px){
+  span {
+    .header-buttons {
+      .btn .d-icon {
+        margin-right: 0;
+      }
+    }
+  }
+
+  header.d-header .header-buttons>button {
+    padding: 13px 15px;
+  }
+}
+
 // .faq-priority {
 //   font-size: 1px;
 //   position: relative;
