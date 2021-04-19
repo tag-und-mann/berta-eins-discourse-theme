@@ -161,7 +161,7 @@ html {
 }
 
 .d-header-icons .d-icon {
-  color: #c2c2c2 !important;
+  color: $dark-blue!important;
 }
 
 .radio input,
@@ -538,7 +538,8 @@ TOPIC NAVIAGATION
 }
 
 .nav-pills > li.active > a {
-  background: #92d6b4;
+  background: $secondary-color;
+  border-radius: 20px;
   font-weight: 600;
   font-size: 13px;
   text-transform: capitalize;
@@ -616,7 +617,7 @@ END TOPIC NAVIGATION
 
 header.d-header .anon .title a {
   display: block;
-  background-image: url($mini_logo2);
+  background-image: url($doc_doc_logo);
   width: 150px;
   height: 50px;
   background-size: contain;
@@ -626,7 +627,7 @@ header.d-header .anon .title a {
 
 header.d-header .title a {
   display: block;
-  background-image: url($mini_logo2);
+  background-image: url($doc_doc_logo);
   width: 200px;
   height: 50px;
   background-size: contain;
@@ -969,6 +970,12 @@ div.poll .d-icon-circle {
   border: 2px solid gray;
   border-radius: 50%;
   padding: 3px;
+}
+
+.btn .d-icon {
+  color: #FFFFFF;
+  margin-right: 0.45em;
+  transition: color 0.25s;
 }
 
 div.poll .results .bar {
