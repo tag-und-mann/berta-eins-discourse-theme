@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+$primary-color: #ff6f00;
+$secondary-color: #3599ff;
+$dark-blue: #013367;
+
 /*
 
 Font awesome
@@ -188,7 +192,7 @@ html {
 }
 
 .modal-footer .btn-primary {
-  background: #93d5b3 !important;
+  background: $primary-color !important;
   color: #FFF !important;
   border-radius: 5px;
 }
@@ -724,6 +728,12 @@ header.d-header .header-buttons .login-button {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto!important;
+}
+
+.login-modal:not(.hidden) #login-form .input-group, .login-modal:not(.hidden) .login-form .input-group, .create-account #login-form .input-group, .create-account .login-form .input-group {
+  width: 100%!important;
+  margin-bottom: 1.25em;
 }
 
 .static-login #main-outlet .body-page .login-required a {
