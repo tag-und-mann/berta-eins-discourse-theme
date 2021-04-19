@@ -555,7 +555,7 @@ TOPIC NAVIAGATION
 
 .nav-pills > li > a:hover {
   color: #FFFFFF;
-  background-color: $secondary-color;
+  background-color: rgba(53, 153, 255, .4);
   border-radius: 20px;
 }
 
@@ -630,7 +630,7 @@ header.d-header .anon .title a {
 header.d-header .title a {
   display: block;
   background-image: url($mini_logo2);
-  width: 200px;
+  width: 160px;
   height: 50px;
   background-size: contain;
   background-position: left center;
