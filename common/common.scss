@@ -76,6 +76,19 @@ Font awesome
   display: none !important;
 }
 
+.menu-panel li a.widget-link,
+.menu-panel li.heading a.widget-link{
+  padding: 0.25em 0.5em;
+  display: block;
+  color: $secondary-color;
+}
+
+.menu-panel li a.admin-link,
+.menu-panel li a.settings-link,
+.menu-panel li.heading a.categories-link {
+  color: $primary-color!important;
+}
+
 tr.green,
 td.green {
   background-color: #92d6b4 !important;
