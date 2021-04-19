@@ -332,7 +332,7 @@ SEARCH
 
 .search-menu .results li span:first-of-type {
   font-size: 24px;
-  color: #92d6b4;
+  color: $primary-color;
   min-width: initial !important;
 }
 
@@ -387,7 +387,7 @@ SEARCH
 
 .search-menu .show-more a {
   transition: all 0.2s ease-in;
-  background-color: #92d6b4;
+  background-color: $primary-color;
   padding: 10px 25px;
   color: #FFF;
   border-radius: 4px;
@@ -395,7 +395,7 @@ SEARCH
 
 .search-menu .show-more a:hover {
   transition: all 0.2s ease-in;
-  background-color: #54b685;
+  background-color: $primary-color;
 }
 
 .search-menu input[type="text"] {
@@ -491,9 +491,10 @@ SEARCH
 }
 
 .custom-block .btn {
-  background: #92d6b4 !important;
-  color: #ffffff !important;
-  border-radius: 3px;
+  background: #FFFFFF !important;
+  color: $gray !important;
+  border-radius: 20px;
+  border: 1px solid $primary-color;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -553,8 +554,9 @@ TOPIC NAVIAGATION
 }
 
 .nav-pills > li > a:hover {
-  color: #214f38;
-  background-color: rgba(#92d6b4, 0.6);
+  color: #FFFFFF;
+  background-color: r$secondary-color;
+  border-radius: 20px;
 }
 
 /*
