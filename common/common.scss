@@ -114,8 +114,8 @@ section.about.admins {
     padding: 13px 15px!important;
 
     .btn .d-icon {
-      margin-right: 0!important;
-    }
+        margin-right: 0!important;
+      }
   }
 }
 
@@ -650,7 +650,7 @@ END TOPIC NAVIGATION
 
 */
 
-header.d-header .anon .title a {
+/*header.d-header .anon .title a {
   display: block;
   background-image: url($mini_logo2);
   width: 150px;
@@ -658,7 +658,7 @@ header.d-header .anon .title a {
   background-size: contain;
   background-position: left center;
   background-repeat: no-repeat;
-}
+}*/
 
 header.d-header .title a {
   display: block;
@@ -684,7 +684,7 @@ header.d-header .header-buttons > button {
 
 header.d-header .header-buttons .login-button {
   position: relative;
-  padding-left: 35px;
+  padding-left: 35px!important;
 }
 
 header.d-header .header-buttons .login-button:before {
@@ -1011,6 +1011,10 @@ div.poll .d-icon-circle {
   color: #FFFFFF;
   margin-right: 0.45em;
   transition: color 0.25s;
+
+  @media (max-width: 850px){
+    margin-right: 0;
+  }
 }
 
 div.poll .results .bar {
