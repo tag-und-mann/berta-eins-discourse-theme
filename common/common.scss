@@ -22,6 +22,10 @@ $gray: #454F5B;
   display: none;
 }
 
+.menu-panel li a:hover, .user-menu .notifications li:hover {
+  color: $dark-blue!important;
+}
+
 /*
 
 Font awesome
