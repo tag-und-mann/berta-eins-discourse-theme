@@ -100,16 +100,13 @@ section.about.admins {
 }
 
 @media (max-width: 850px){
-  span {
-    .header-buttons {
-      .btn .d-icon {
-        margin-right: 0;
-      }
-    }
-  }
 
   header.d-header .header-buttons>button {
-    padding: 13px 15px;
+    padding: 13px 15px!important;
+
+    .btn .d-icon {
+      margin-right: 0!important;
+    }
   }
 }
 
@@ -555,7 +552,7 @@ TOPIC NAVIAGATION
 .list-controls .combo-box .combo-box-header {
   background: #e9edf2;
   border: none;
-  color: #005289;
+  color: #FFFFFF;
   font-weight: 600 !important;
   line-height: inherit !important;
   text-transform: capitalize;
@@ -678,7 +675,7 @@ header.d-header .header-buttons > button {
 
 header.d-header .header-buttons .login-button {
   position: relative;
-  padding-left: 35px;
+  //padding-left: 35px;
 }
 
 header.d-header .header-buttons .login-button:before {
