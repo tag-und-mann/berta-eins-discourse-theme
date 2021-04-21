@@ -677,9 +677,15 @@ header.d-header {
 
 header.d-header .header-buttons > button {
   background-color: $primary-color !important;
-  color: #fff !important;
+  color: #FFFFFF !important;
   border-radius: 20px;
-  padding: 4px 15px;
+  padding: 6px 15px;
+  transition: all .4s;
+
+  &:hover {
+    color: $primary-color!important;
+    background-color: #FFFFFF !important;
+  }
 }
 
 header.d-header .header-buttons .login-button {
