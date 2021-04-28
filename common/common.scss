@@ -1598,3 +1598,9 @@ login-modal:not(.hidden) #login-form .input-group, .login-modal:not(.hidden) .lo
 .menu-panel li a.widget-link .d-icon {
   color: $primary-color;
 }
+
+a {
+  color: #3599FF;
+  text-decoration: none;
+  cursor: pointer;
+}
