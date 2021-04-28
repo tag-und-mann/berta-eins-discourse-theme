@@ -1594,3 +1594,7 @@ login-modal:not(.hidden) #login-form .input-group, .login-modal:not(.hidden) .lo
 .category-list .category-name {
   color: $primary-color;
 }
+
+.menu-panel li a.widget-link .d-icon {
+  color: $primary-color;
+}
