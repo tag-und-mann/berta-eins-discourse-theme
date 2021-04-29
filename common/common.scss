@@ -12,6 +12,14 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: Karla;
+  src: url($Karla-VariableFont_wght);
+  font-weight: normal;
+  font-style: normal;
+}
+
 $primary-color: #ff6f00;
 $secondary-color: #3599ff;
 $dark-blue: #013367;
@@ -169,7 +177,7 @@ section.about.admins {
 /*///////////////////////////////////////////*/
 
 html {
-  font-family: Circular;
+  font-family: Karla;
   padding: 0;
   margin: 0 auto;
   background-image: url($bg);
@@ -720,12 +728,12 @@ header.d-header .header-buttons .login-button:hover:before {
 }
 
 body {
-  font-family: Circular;
+  font-family: Karla;
   height: 100%;
 }
 
 body.static-login {
-  font-family: Circular;
+  font-family: Karla;
   background: url($anonymous_banner) center bottom;
   background-size: cover;
   text-align: center;
@@ -1152,13 +1160,13 @@ div[data-poll-type="number"] ul {
   right: 7px;
 }
 
-#list-area .topic-list-item.green .d-icon-thumbtack,
+/*#list-area .topic-list-item.green .d-icon-thumbtack,
 #list-area .topic-list-item.green .d-icon-thumbtack.unpinned,
 #list-area .topic-list-item.green .category-name,
 #list-area .topic-list-item.green .topic-info-row .number,
 #list-area .topic-list-item.green .topic-info-row {
   color: #FFF !important;
-}
+}*/
 
 .menu-panel li a:hover,
 .user-menu .notifications li:hover {
