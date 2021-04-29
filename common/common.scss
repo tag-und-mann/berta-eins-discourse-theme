@@ -705,6 +705,10 @@ header.d-header .header-buttons > button {
   }
 }
 
+.discourse-no-touch .btn:hover .d-icon, .discourse-no-touch .btn.btn-hover .d-icon {
+  color: $primary-color!important;
+}
+
 header.d-header .header-buttons .login-button {
   position: relative;
   padding-left: 35px!important;
@@ -1371,9 +1375,9 @@ div[data-poll-type="number"] ul {
   text-align: center;
 }
 
-.bootbox.modal .modal-footer a {
+/*.bootbox.modal .modal-footer a {
   background-color: #92d6b4 !important;
-}
+}*/
 
 .modal-footer {
   border: none !important;
