@@ -100,6 +100,10 @@ Font awesome
   color: $secondary-color;
 }
 
+.menu-panel li a.unread-topics-link {
+  display: none;
+}
+
 .menu-panel li a.admin-link,
 .menu-panel li a.settings-link,
 .menu-panel li.heading a.categories-link {
