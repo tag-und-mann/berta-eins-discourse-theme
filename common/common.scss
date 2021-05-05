@@ -100,7 +100,8 @@ Font awesome
   color: $secondary-color;
 }
 
-.menu-panel li a.unread-topics-link {
+.menu-panel li a.unread-topics-link,
+.menu-panel li a.top-topics-link {
   display: none;
 }
 
